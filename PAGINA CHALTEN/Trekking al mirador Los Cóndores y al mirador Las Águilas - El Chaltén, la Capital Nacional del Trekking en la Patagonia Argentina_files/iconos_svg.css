@@ -1,0 +1,16 @@
+#agencias { background: url("../imgs/iconos/agencias.svg");}
+#prestadores { background: url("../imgs/iconos/guiatrekking.svg");}
+#equipo {background: url("../imgs/iconos/equipo.svg");}
+#kayak { background: url("../imgs/iconos/kayak.svg");}
+#chocolate {background: url("../imgs/iconos/chocolate.svg");}
+#escalada {background: url("../imgs/iconos/escalada.svg");}
+#trekking {background: url("../imgs/iconos/trekking.svg");}
+#rafting {background: url("../imgs/iconos/rafting.svg");}
+#yoga {background: url("../imgs/iconos/yoga.svg");}
+#bota {background: url("../imgs/iconos/botatrekking.svg");}
+#hostel {background: url("../imgs/iconos/hostel.svg");}
+#rotiseria {background: url("../imgs/iconos/rotiseria.svg");}
+#taller {background: url("../imgs/iconos/taller.svg");}
+#huemul {background: url("../imgs/iconos/huemul.svg");}
+
+.iconos-svg {background-position: center center; background-repeat: no-repeat; width:1.21em; height: 1.21em; display: block; background-size: 70%;}

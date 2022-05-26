@@ -1,0 +1,283 @@
+
+
+.micaja{
+  justify-content: space-between;
+  display: flex;
+  margin:1vmin;
+  overflow:hidden;
+  height: 75vh;
+}
+.articulo {
+  color:black;  
+  margin:2%;
+  padding:1%; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 20px 0px 20px 0px; 
+  border: 2px solid grey;
+  width: 30%;
+  height: 90%;
+  font-weight: bold;
+  overflow: auto; /*Firefox*/
+  overflow: overlay;
+
+}
+
+ /*Webkit*/
+ .articulo::-webkit-scrollbar {
+   display: none;
+   width: 10px;
+   height: 10px;
+   background-color: withe;
+ }
+ .articulo:hover::-webkit-scrollbar {
+   display: initial;  
+ }
+ .articulo::-webkit-scrollbar-thumb {
+   background-color: #ccc;
+ }
+
+.caminatas h2{
+text-align: center;
+margin-top: 5%;
+}
+.caminatas h5{
+  font-weight: bold;
+}
+*{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+ }
+p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+nav{
+
+    position:fixed;
+    display: flex;
+    width: 100vw;
+    min-height: 4vh;
+    top:0;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 10vh;
+    background-color: white;
+    align-items: flex-start;
+
+}
+.nav-item{
+  color:black;
+  display: flex;
+  text-decoration:none;
+  margin-left: 1vw;
+ 
+}
+
+.titulo{
+  text-align:center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.titulo h6{
+  margin-top: 0%;
+  text-align:center;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.portada{
+  display: flex;
+  height: 50vh; 
+}
+#informacion_general{
+  background-image:  url("../img/amanecer_capri_.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+#contacto{
+  display: flex;
+  margin-left: 2vw;
+  justify-content: center;
+}
+#contacto h2{
+  text-align: center;
+}
+
+textarea {
+  display : flex;
+  padding : 0px;
+  width   : 50vw;
+  height  : 20%;
+  border-right: 1px solid;
+  overflow:auto;
+}
+
+.mapa {
+  position: relative;
+  padding-bottom: 80%;
+  height: 0;
+  overflow: hidden;
+  margin: 1px black ;
+}
+.mapa iframe {
+  position: absolute;
+  top:5vh;
+  left: 15vw;
+  width: 70%;
+  height: 70%;  
+}
+#titulomapa{
+  text-align: center;
+}
+
+footer{
+    background-color: rgb(224, 226, 230);
+    text-align: center;
+    font-weight: bold;   
+}
+#redes{
+  margin-left: 2vw;
+  display:inline-flexbox;
+  justify-content:space-between;
+  height: 5vw;
+  font-size:24px;
+}
+
+
+/* galeria de fotos */
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .fotos {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+
+  @media only screen and (max-width: 1024) {
+    .fotos {
+      width: 30%;
+    }
+  }
+  
+@media only screen and (max-width: 768px) {
+
+  #informacion_general{
+    background-image:  url("../img/amanecer_capri_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  .mapa {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+  }
+  .mapa iframe {
+    /* position: absolute; */
+    /*top:5vh; */
+    /* left: 15vw; */
+    width: 80%;
+    height: 80%; 
+  }
+  footer{
+    margin-top: 5%;
+  }
+  .micaja{
+    justify-content: space-between;
+    display: flex;
+    margin:1vmin;
+    overflow:hidden;
+    height: 75vh;
+  }
+  .articulo {
+    color:black;  
+    margin:2%;
+    padding:1%; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 20px 0px 20px 0px; 
+    border: 2px solid grey;
+    width: 35%;
+    height: 90%;
+    font-weight: bold;
+    overflow: auto; /*Firefox*/
+    overflow: overlay;
+  
+  }
+
+  .fotos {
+    width: 49.99999%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  nav{
+    flex-direction: column;
+  }
+  .titulo{
+    text-align:center;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+  }
+  #informacion_general{
+    background-image:  url("../img/amanecer_capri_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  .articulo{
+    width: 90vw;
+    height: 70vh;
+    margin: 2vw;
+  }
+  .mapa {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+  }
+  .mapa iframe {
+    width: 80%;
+    height: 80%; 
+  }
+  footer{
+    margin-top: 5%;
+  }
+  .micaja{
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    margin:1vmin;
+    overflow:hidden;
+    /* border: 1px solid black; */
+    height: auto;
+  }
+  .fotos {
+    width: 100%;
+    margin: 6px 0;
+  }
+}

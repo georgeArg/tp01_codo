@@ -1,0 +1,492 @@
+body { padding-top: 4.5rem !important; background: #f6f6f6 !important}
+
+#imagen10 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero.jpg) center bottom no-repeat; background-size: cover; height: 600px; }
+#imagen11 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/valle-electrico.jpg) center bottom no-repeat; background-size: cover; height: 600px; }
+#imagen12 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) center bottom no-repeat; background-size: cover; height: 600px; }
+#imagen13 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover; height: 600px; }
+#imagen14 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/arroyo-del-salto2.jpg) top no-repeat; background-size: cover; height: 600px; }
+
+#trekking-medio-dia { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/mirador-del-torre.jpg) center 20% no-repeat; background-size: cover; height: 550px !important;}
+#trekking-dia-completo { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres2.jpg) center 80% no-repeat; background-size: cover; height: 530px !important;}
+#trekking-valle-rio-de-las-vueltas { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-azul.jpg) center top no-repeat; background-size: cover !important; height: 530px; }
+#trekking-lago-del-desierto { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/lago-del-desierto.jpg) center top no-repeat; background-size: cover !important; height: 530px; }
+
+#imperdible1 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-de-los-tres.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#imperdible2 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-torre.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#imperdible3 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-capri.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#imperdible4 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#imperdible5 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/pliegue-tumbado.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#imperdible6 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mirador-del-torre.jpg) right top no-repeat !important; background-size: cover !important; height: 200px !important;}
+
+#miniatura-mirador-los-condores { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mirador-los-condores.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-laguna-azul { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-laguna-azul.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-mirador-margarita { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-mirador-margarita.jpg) right bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-glaciar-huemul { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-glaciar-huemul.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-piedra-del-fraile { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-piedra-del-fraile.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-puesto-cagliero { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-puesto-cagliero.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-mirador-piedras-blancas { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-mirador-piedras-blancas.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-punta-norte-hito-limitrofe { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-punta-norte.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-mirador-del-lago-del-desierto { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-mirador-del-lago-del-desierto.jpg) center top no-repeat !important; background-size: cover !important; height: 200px !important;}
+#miniatura-kayak { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-kayak.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-kayak-rdv { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-kayak-rio-de-las-vueltas.jpg) center center no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-rafting { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-rafting.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-bosque-la-leona { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-bosque-petrificado-la-leona.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-mtb-ldd { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-mtb-ldd.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-cabalgata { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-cabalgata.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-ice-trekking-glaciar-cagliero { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-ice-trekking-glaciar-cagliero.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-glaciar-vespignani { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-glaciar-vespignani.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-casa-madsen { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-casa-madsen.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-excursion-fishing { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-excursion-fishing.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+
+#miniatura-excursion-refugio-de-glaciares { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/miniatura-excursion-refugio-de-glaciares.jpg) center top no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-excursion-bonanza-full-day { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-full-day-experience-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-excursion-bonanza-mtb { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px;}
+#miniatura-excursion-bonanza-cabalgata { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-cabalgata-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; height: 200px;}
+
+#miniatura-excursion-rio-de-las-vueltas-rafting { background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/rafting_riodelasvueltas7.jpg) left top no-repeat !important; background-size: cover !important; height: 200px;}
+
+.miniaturas-dos-columnas { height: 260px !important;}
+
+.miniaturas-actividades {padding-top: 0 !important; background: #e6e6e6 !important; }
+.miniaturas-actividades h2 {padding-top: 0 !important; padding-bottom:0 !important; font-weight: 200 !important; font-size: 2.2em !important }
+.miniaturas-actividades h4 {font-size: 1.3em !important; padding-top: 0em; padding-bottom:0 !important; font-weight: 400 !important}
+.miniaturas-actividades i {width:1.2em; padding-right:1em; position: relative; top:0.04em; }
+.miniaturas-actividades p {font-size: 1em !important; line-height: 1.4em !important;}
+
+.miniaturas-actividades .btn {margin-bottom: 1em !important; } 
+
+#referencias {line-height: 1.5em !important; padding-top: 0 !important; margin-top: 0 !important; padding-bottom: 1em !important; }
+#referencias-actividades {font-size: 1em !important; padding-bottom: 0 !important; margin-bottom: 0 !important; padding-top: 2em !important; line-height: 1em !important; }
+
+/* SWIPER */
+.swiper-container { width: 100%; height: 100%; margin-left: auto; margin-right: auto;}
+.swiper1 .swiper-container { background: #333;}
+.swiper1 .swiper-slide { text-align: left; font-size: 18px; background: #444; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; background-size: cover; background-position: center; height:600px !important;}
+.swiper-slide img {width:100%;}
+.position-relative { position: relative; }
+
+#imagen1 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres2.jpg) center 90% no-repeat !important; background-size: cover !important;;  }
+#imagen2 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover !important;; }
+#imagen4 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero.jpg) center bottom no-repeat; background-size: cover !important;; }
+#imagen5 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/navegacion-ldd.jpg) center top no-repeat; background-size: cover !important;; }
+#imagen7 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/trekking-glaciar-cagliero.jpg) center top no-repeat; background-size: cover !important;; }
+#imagen8 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/ascenciones.jpg) center top no-repeat; background-size: cover !important;; }
+#imagen9 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/los-huemules-puente-rio-diablo.jpg) center top no-repeat; background-size: cover !important;; }
+
+
+#trekking-autoguiado1 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center 20% no-repeat; background-size: cover !important;; }
+#trekking-autoguiado3 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-capri-hero.jpg) center 12% no-repeat; background-size: cover !important;; }
+#trekking-autoguiado4 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/loma-del-pliegue-tumbado.jpg) center 20% no-repeat; background-size: cover !important;; }
+#trekking-autoguiado5 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-torre.jpg) center top no-repeat; background-size: cover !important;; }
+#trekking-autoguiado6 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres.jpg) center 40% no-repeat; background-size: cover !important;; }
+
+#excursiones-slide1 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/refugiodeglaciares-hero.jpg) right bottom no-repeat; background-size: cover !important;; }
+#excursiones-slide2 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/casa-madsen-hero.jpg) center top no-repeat; background-size: cover !important;; }
+#excursiones-slide3 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/kayak2-hero.jpg) center bottom no-repeat; background-size: cover !important;; }
+#excursiones-slide4 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/bosque-petrificado-la-leona-hero.jpg) center top no-repeat; background-size: cover !important;; }
+#excursiones-slide5 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/cabalgata-el-relincho-hero.jpg) center bottom no-repeat; background-size: cover !important;}
+#excursiones-slide6 { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/fishing-hero.jpg) center top no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide7 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-full-day-experience-hero.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide8 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide9 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-cabalgata-hero.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+
+
+
+
+
+/* Breakpoints */
+
+@media (max-width: 1600px) {
+	.swiper1 .swiper-slide { height:550px !important;}
+	#imagen10, #imagen11, #imagen12, #trekking-medio-dia, #trekking-dia-completo, #trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto {height: 480px !important;  }
+	#imagen13, #imagen14 {height: 550px !important;}
+}
+
+@media (max-width: 1366px) {
+	.swiper1 .swiper-slide { height:480px !important;}
+	#imagen10, #imagen11, #imagen12, #trekking-medio-dia, #trekking-dia-completo, #trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto {height: 460px !important;  }
+	#imagen13 {height: 500px !important;}
+
+}
+
+@media (max-width: 1200px) {
+.swiper1 .swiper-slide { height:400px !important;}
+#imagen1 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres2.jpg) center bottom no-repeat; background-size: cover;  }
+#imagen2 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover;  }
+#imagen4 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero2.jpg) center bottom no-repeat; background-size: cover;  }
+#imagen5 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/navegacion-ldd.jpg) center bottom no-repeat; background-size: cover;  }
+#imagen6 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) 70% 85% no-repeat !important; background-size: 130% !important;  }
+#imagen7 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/trekking-glaciar-cagliero.jpg) center bottom no-repeat; background-size: cover;  }
+#imagen8 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/ascenciones.jpg) center top no-repeat; background-size: cover;  }
+#imagen9 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/los-huemules-puente-rio-diablo.jpg) center top no-repeat; background-size: cover;  }
+.swiper1 .swiper-slide-caption { top: 10%; padding-left:10%; padding-right:62%; }
+.swiper1 .swiper-slide-caption h2 { font-size: 21px; line-height: 32px;  }
+#trekking-autoguiado1 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado3 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-capri-hero.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado4 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/loma-del-pliegue-tumbado.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado5 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-torre.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado6 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres.jpg) center top no-repeat; background-size: cover; }
+
+#excursiones-slide1 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/refugiodeglaciares-hero.jpg) right bottom no-repeat; background-size: cover; }
+#excursiones-slide2 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/casa-madsen-hero.jpg) center top no-repeat; background-size: cover; }
+#excursiones-slide3 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/kayak2-hero.jpg) center bottom no-repeat; background-size: cover; }
+#excursiones-slide4 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/bosque-petrificado-la-leona-hero.jpg) center top no-repeat; background-size: cover; }
+#excursiones-slide5 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/cabalgata-el-relincho-hero.jpg) center bottom no-repeat; background-size: cover; }
+#excursiones-slide6 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/fishing-hero.jpg) center top no-repeat; background-size: cover; }
+
+#excursiones-slide7 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-full-day-experience-hero2.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide8 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero2.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide9 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-cabalgata-hero2.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+
+	#imagen10, #imagen11, #imagen12, #trekking-medio-dia, #trekking-dia-completo, #trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto {height: 400px !important;  }
+	#imagen13 {height: 420px !important;}
+
+	.miniaturas-actividades h4 {font-size: 1.15em !important; margin-top: 0 !important; font-weight: 500 !important }
+	.miniaturas-actividades p {font-size: 1em !important; line-height: 1.2em !important;}
+
+}
+
+@media (max-width: 1112px) { 
+	.swiper1 .swiper-slide { height:370px !important;}
+	#intro .swiper-button-prev1 { left:0; }
+	#intro .swiper-button-next1 { right:0; }
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, #miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting { height: 180px;}
+
+.miniaturas-dos-columnas { height: 220px !important;}
+#imagen14 {height: 420px !important;}
+
+
+}
+
+@media (max-width: 1024px) {
+	.swiper1 .swiper-slide { height:350px !important;}
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 {position: relative}
+	#intro .swiper-button-prev1, #intro .swiper-button-next1 { display: none; }
+	body { padding-top: 3.5rem !important; }
+#imagen10 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero2.jpg) no-repeat; background-size: cover !important; height: 350px !important; background-size: 130% !important; background-position: 30% 108% !important}
+#imagen11 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/valle-electrico.jpg) center bottom no-repeat; background-size: cover !important; height: 350px !important; }
+#imagen12 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) no-repeat; background-size: cover !important; height: 350px !important; background-size: 100% !important; background-position: center bottom !important}
+#imagen13 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover; height: 350px !important; }
+#imagen14 { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/arroyo-del-salto2.jpg) center top no-repeat; background-size: cover; height: 390px !important; }
+
+#trekking-medio-dia { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/mirador-del-torre.jpg) center top no-repeat; background-size: cover; height: 350px !important;}
+#trekking-dia-completo { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-de-los-tres2.jpg) center 80% no-repeat; background-size: cover; height: 350px !important;}
+#trekking-valle-rio-de-las-vueltas { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/laguna-azul.jpg) center 60% no-repeat; background-size: cover !important; height: 350px !important; }
+#trekking-lago-del-desierto { background: url(https://imgs1000.s3.sa-east-1.amazonaws.com/lago-del-desierto.jpg) center top no-repeat; background-size: cover !important; height: 350px !important; }
+}
+
+@media (max-width: 992px) {
+	.swiper1 .swiper-slide { height:350px;}
+}
+
+@media (max-width: 981px) {
+	body { padding-top: 4.5rem !important; }
+	.swiper1 .swiper-slide { height:350px;}
+}
+
+@media (max-width: 960px) {
+	.swiper1 .swiper-slide { height:320px;}
+}
+
+/* iPad Pro (10.5") V (834px) */
+
+@media (max-width: 834px) {
+	.swiper1 { padding:0; margin: 0; padding:0; height:300px; }
+	.swiper1 .swiper-slide-caption { width: 34%; padding:2em 1em 1em 1em; TOP:0; position: absolute;}
+	.swiper1 .swiper-slide-caption h2 { font-size: 21px; line-height: 28px;  }
+	.swiper1 .swiper-slide { height:300px;}
+	.miniaturas-dos-columnas { height: 160px !important;}
+}
+/* VGA 800x600px */
+@media (max-width: 800px) {
+	body { padding-top: 4.4rem !important; }
+
+	.swiper1 { padding:0; margin: 0; padding:0; height:290px !important; }
+	.swiper1 .swiper-slide { height:290px;}
+}
+
+/* 782px */
+@media (max-width: 782px) {
+	.swiper1 .swiper-slide { height:280px;}
+	#referencias-actividades .btn {font-size: 1em !important; margin-top: -1em !important; margin-bottom: 2em !important;}
+	.miniaturas-actividades h2 {font-size: 2em !important; font-weight: 400 !important}
+	.miniaturas-actividades h4 {font-size: 1.1em !important; font-weight: 500 !important}
+
+}
+
+/* iPad vertical */
+
+@media (max-width: 768px) { 
+	body { padding-top: 4.5rem !important; }
+	.swiper1 { padding:0; margin: 0; height:280px !important; width:100% }
+	.swiper1 .swiper-slide { height:280px !important;}
+	#imagen1, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-size: cover !important; background-position: center top !important }
+	#imagen2 { background-size: cover !important; background-position: center bottom !important }
+
+
+	#imagen10 { height: 260px !important;  }
+	#imagen11 { height: 260px !important;  }
+	#imagen12 { height: 260px !important; background-size: 100% !important; background-position: 40% 100%}
+	#imagen13, #imagen14 { height: 280px !important; background-position: center bottom !important }
+
+	#referencias-actividades .btn {margin-top: 0em !important;  }
+
+	.miniaturas-dos-columnas { height: 160px !important;}
+
+}
+
+/* iPhone 8 Plus H */
+
+@media (max-width: 737px) { 
+	.swiper1 { padding:0; margin: 0; padding:0; height:300px; }
+	.swiper1 .swiper-slide { height:300px;}
+
+	#imagen10 {background-size: cover !important;  height: 250px !important; background-size: 130% !important; background-position: 40% 8% }
+	#imagen11 {background-size: cover !important;  height: 250px !important; background-size: 130% !important; background-position: 40% 100% }	
+	#imagen12 {background-size: cover !important;  height: 250px !important; background-size: 150% !important; background-position: 45% 100% }
+	#imagen13 {background-size: cover !important;  height: 230px !important; }
+	#imagen14 {background-size: cover !important;  height: 230px !important; }
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, 
+	#miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 150px !important; margin-bottom: 0.4em !important; }
+
+	.miniaturas-actividades h2 {font-size: 2.5em !important; font-weight: 300 !important}
+	.miniaturas-actividades h4 {font-size: 1.2em !important; font-weight: 400 !important}
+
+}
+
+/* iPad mini H - split */
+@media (max-width: 694px) {
+	.swiper1 { padding:0; margin: 0; padding:0; height:290px; }
+	.swiper1 .swiper-slide { height:290px;}
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 70px;  }
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, 
+	#miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 150px !important; margin-bottom: 0.3em !important; }
+
+}
+
+@media (max-width: 678px) {
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 40px;  }
+	#imagen14 {height:280px !important;}
+}
+
+@media (max-width: 667px) {
+	.swiper1 { padding:0; margin: 0; padding:0; height:300px; }
+	.swiper1 .swiper-slide { height:300px;}
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 50px;  }
+}
+
+@media (max-width: 639px) {
+	.swiper1  { height:290px;}
+	.swiper1 .swiper-slide { height:290px;}
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 50px;  }
+}
+
+/* VGA 600x800px  */
+@media (max-width: 600px) {
+	.swiper1 { padding:0; margin: 0; padding:0; height:227px; }
+	.swiper1 .swiper-slide img { height:227px; }
+	.swiper1 .swiper-slide { height:227px;}
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 100px;  }
+	body { padding-top: 4.5rem !important; }
+}
+
+/* iPhone SE horizontal / 568px */
+@media (max-width: 568px) {
+	.swiper1 { padding:0; margin: 0; padding:0; height:230px; }
+	.swiper1 .swiper-slide-caption { width: 36%; padding:1.2em 0.6em 0.6em 0.6em;}
+	.swiper1 .swiper-slide-caption h2 { font-size: 15px; line-height: 28px;  }
+	.swiper1 .swiper-slide { height:230px;}
+	body { padding-top: 3rem !important; }
+	#imagen10 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero3.jpg) center top no-repeat; background-size: cover !important; height: 220px !important; background-size: 150% !important; background-position: 30% 8%}
+	#imagen11 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/valle-electrico.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; }
+	#imagen12 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; }
+	#imagen13 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; }
+	#imagen14 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/arroyo-del-salto2.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; }
+
+#trekking-medio-dia { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mirador-del-torre.jpg) 70% top no-repeat; background-size: cover; }
+
+#trekking-autoguiado1 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado3 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-capri-hero.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado4 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/loma-del-pliegue-tumbado.jpg) 80% top no-repeat; background-size: cover; }
+#trekking-autoguiado5 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-torre.jpg) center top no-repeat; background-size: cover; }
+#trekking-autoguiado6 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-de-los-tres.jpg) center top no-repeat; background-size: cover; }
+
+#excursiones-slide1 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/refugiodeglaciares-hero.jpg) right bottom no-repeat; background-size: cover; }
+#excursiones-slide2 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/casa-madsen-hero.jpg) center top no-repeat; background-size: cover; }
+#excursiones-slide3 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/kayak2-hero.jpg) center bottom no-repeat; background-size: cover; }
+#excursiones-slide4 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/bosque-petrificado-la-leona-hero.jpg) center bottom no-repeat; background-size: cover; }
+#excursiones-slide5 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/cabalgata-el-relincho-hero.jpg) center top no-repeat; background-size: cover; }
+#excursiones-slide6 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/fishing-hero.jpg) center top no-repeat !important; background-size: cover; }
+
+#excursiones-slide7 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-full-day-experience-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide8 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+#excursiones-slide9 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-cabalgata-hero3.jpg) center bottom no-repeat !important; background-size: cover !important; ; }
+
+
+}
+
+
+@media (max-width: 551px) {
+	.swiper1 { height:225px;}
+	.swiper1 .swiper-slide { height:225px;}
+	#imagen1 {background-size: 300% !important; background-position: 40% 80% !important}
+	#imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 85px;  }
+	body { padding-top: 3rem !important; }
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, #miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 240px !important; margin-bottom: 0.6em !important; }
+	.miniaturas-actividades h4 {font-size: 1.4em !important; font-weight: 400 !important}
+
+}
+
+/* 540px (V) */
+@media (max-width: 540px) {
+		body { padding-top: 3.2rem !important; }
+
+	.swiper1 .swiper-slide-caption { padding: 2.5em 0.5em 0.5 0.5em; } 
+	.swiper1 .swiper-slide-caption h2 { font-size: 18px;line-height: 24px; text-align: left;  }
+	#imagen1, #imagen2, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: 50px;  }
+}
+
+
+/* iPad H Split 507px */
+@media (max-width: 507px) {
+	.swiper1 { height:250px; }
+	#imagen1 { background-position-x: 20px; height:250px }
+	#imagen4, #imagen5, #imagen6 { background-position-x: 50px; height:250px }
+	#imagen2, #imagen7 { background-position-x: -70px; height:250px }
+	#imagen8 { background-position-x: 0px; height:250px }
+	#imagen9 { background-position-x: 70px; height:250px }
+	#imagen10, #imagen12, #imagen11 { height: 250px !important; }
+	#imagen13, #imagen14, #trekking-medio-dia, #trekking-dia-completo, #trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto { height: 280px !important; }
+	
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, 
+	#miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 220px !important; margin-bottom: 0.6em !important; }
+
+}
+
+
+@media (max-width: 470px) { 
+	.swiper1 {height:440px; top:0; }
+	.swiper1 .swiper-slide img { height:260px; width:700px; overflow: hidden; clip: rect(0px,800px,260px,200px); position:absolute; top:0px; left:-150px; }
+	.swiper1 .swiper-pagination1 { display: none; }
+}
+
+
+@media (max-width: 438px) { 
+	.swiper1 { width:438px; height:440px; top:0; }
+	#imagen1, #imagen2, #imagen3, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9 { background-position-x: -130px; height:260px }
+	#imagen10 { background-size: 160% !important; background-position: 30% 8% }
+}
+
+@media (max-width: 414px) { 
+	.swiper1 {width:414px !important; height:200px !important; top:0; }
+	#excursiones-slide1, #excursiones-slide2, #excursiones-slide3, #excursiones-slide4, #excursiones-slide5, #excursiones-slide6, #excursiones-slide7, #excursiones-slide8, #excursiones-slide9 { height: 200px !important; background-size: cover !important}
+
+	body { padding-top: 3rem !important; }
+	#imagen1 { background-size: cover !important; background-size: 130% !important; background-position: center top !important }
+	#imagen4 { background-size: cover !important; background-size: 130% !important; background-position: center top !important }
+	#imagen7 { background-size: cover !important; background-size: 130% !important; background-position: center top !important }
+	#imagen8 { background-size: cover !important; background-size: 130% !important; background-position: center top !important }
+
+
+
+	#imagen10 { height: 230px !important; background-position: 50% 100% !important}
+	#imagen11 { height: 230px !important; }
+	#imagen12 { height: 230px !important; background-position: 90% 100% !important}
+	#imagen13 { height: 230px !important; background-position: 30% 100% !important}
+	#imagen14 { height: 230px !important; background-position: 20% 100% !important}
+
+	#trekking-medio-dia { height: 230px !important; background-position: 85% 100% !important}
+	#trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto { height: 230px !important; background-position: center top !important}
+	#trekking-dia-completo { height: 230px !important; background-position: 40% 90% !important; background-size: 220% !important}
+
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, #miniatura-glaciar-huemul, 
+	#miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 170px !important; margin-bottom: 0.8em !important; }
+
+	.miniaturas-actividades {padding-top: 0 !important; margin-top: 0 !important}
+	.miniaturas-actividades h2 {padding-top: 0 !important; padding-bottom: 0 !important; margin-bottom: 0 !important; font-weight: 400 !important; font-size: 1em !important }
+	.miniaturas-actividades h4 {font-size: 1.2em !important; font-weight: 500 !important; margin-top: 0 !important}
+	.miniaturas-actividades p {font-size: 1.0em !important; line-height: 1.2em !important; }
+	.miniaturas-actividades .btn {font-size: 0.9em !important; margin-top: 0.5em !important; margin-bottom: 0 !important}
+
+	#referencias {line-height: 1.5em !important; padding-top: 0 !important; margin-top: 0 !important; padding-bottom: 1.2em !important; }
+	#referencias-actividades {margin-top: 0 !important; }
+	#referencias-actividades .btn {font-size: 0.9em !important;margin-bottom: 1em !important; margin-top: 1em !important; position: relative !important; top: -1em !important; }
+
+
+}
+
+@media (max-width: 375px) { 
+	.swiper1 { width: 375px !important; height:170px !important;}
+
+	#excursiones-slide1, #excursiones-slide2, #excursiones-slide3, #excursiones-slide4, #excursiones-slide5, #excursiones-slide6, #excursiones-slide7, #excursiones-slide8, #excursiones-slide9 { height: 170px !important; background-size: cover !important}
+
+
+	#imagen1 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/laguna-de-los-tres2.jpg) top no-repeat !important; background-size: cover !important;  height:200px !important;}
+	#imagen2 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mochileros.jpg) top no-repeat; background-size: cover !important; height:220px !important;  background-size: 200% !important;}
+	#imagen4 { background: url(https://excursiones-heros.s3.sa-east-1.amazonaws.com/estancia-bonanza-mtb-hero3.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:200px !important;  background-size: 150% !important; background-position: center bottom !important }
+	#imagen5 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/navegacion-ldd.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:200px !important;  background-size: 200% !important; }
+	#imagen6 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:220px !important;  background-size: 160% !important; }
+	#imagen7 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/trekking-glaciar-cagliero.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:220px !important;  background-size: 150% !important;}
+	#imagen8 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/ascenciones.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:220px !important;  background-size: cover !important;}
+	#imagen9 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/los-huemules-puente-rio-diablo.jpg) top no-repeat; background-size: cover !important; background-position-x: 85px; height:200px !important;  background-size: 130% !important; background-position: 20% 0% !important }
+
+	#imagen10 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mtb2.jpg) center top no-repeat; background-size: cover !important; height: 220px !important; background-size: 150% !important; background-position: 30% 8%; height: 220px !important; background-position: 50% 100% !important}
+	#imagen11 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/valle-electrico.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; height: 220px !important; }
+	#imagen12 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/vuelta_al_hielo.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; height: 220px !important; background-position: 90% 100% !important; }
+	#imagen13 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/mochileros.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; height: 220px !important; background-position: 30% 100% !important; }
+	#imagen14 { background: url(https://imgs500.s3.sa-east-1.amazonaws.com/arroyo-del-salto2.jpg) center bottom no-repeat; background-size: cover !important; height: 220px !important; height: 220px !important; background-position: 20% 100% !important}
+
+	#trekking-medio-dia, #trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto { height: 220px !important;}
+
+	#trekking-dia-completo { height: 230px !important; background-position: 40% 90% !important; }
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, #miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 170px !important; margin-bottom: 0.6em !important; }
+
+	.miniaturas-actividades h4 {font-size: 1.1em !important; }
+	.miniaturas-actividades .card-text { font-size: 0.9em !important; font-weight: 300 !important; line-height: 1.2em !important; }
+	#referencias {font-size: 1em !important; line-height: 1.5em !important; padding-top: 0 !important; margin-top: 0 !important; padding-bottom: 1.2em !important; }
+	#referencias-actividades p {font-size: 0.8em !important;}
+	#referencias-actividades .btn {font-size: 0.8em !important;}
+
+}
+
+@media (max-width: 320px) {
+	body { padding-top: 3.0rem !important; }
+
+	.swiper1 { width: 320px !important; height:150px !important; top:0 !important; margin:0 !important; padding: 0 !important; }
+	.swiper-container { width: 200px !important; }
+	.swiper1 .swiper-container 	{ background: #000 !important; }
+	.swiper-slide img { width:100% !important; }
+
+	#intro { margin:0 !important; padding:0 !important; width: 320px !important; }
+
+	#imagen1 {height:200px !important;  background-size: 130% !important;}
+	#imagen2, #imagen4, #imagen6, #imagen7 {height:200px !important;  background-size: 200% !important;}
+	#imagen5 {height:200px !important;  background-size: 250% !important;}
+	#imagen8 {height:200px !important;  background-size: cover !important;}
+	#imagen9 {height:200px !important;  background-size: 200% !important; background-position: 20% 10% !important}
+	#imagen10 { height: 200px !important; background-position: 50% 100% !important}
+	#imagen11 { height: 200px !important; }
+	#imagen12 { height: 200px !important; background-position: 90% 100% !important}
+	#imagen13 { height: 200px !important; background-position: 30% 100% !important}
+	#imagen14 { height: 180px !important; background-position: 20% 100% !important}
+
+	#trekking-dia-completo { height: 200px !important; background-position: 40% 90% !important; background-size: 330% !important}
+	#trekking-valle-rio-de-las-vueltas, #trekking-lago-del-desierto { height: 200px !important; background-position: center top !important; background-size: cover !important}
+
+	#imperdible1, #imperdible2, #imperdible3, #imperdible4, #imperdible5, #imperdible6, #miniatura-mirador-los-condores, #miniatura-laguna-azul, #miniatura-mirador-margarita, 
+	#miniatura-glaciar-huemul, #miniatura-piedra-del-fraile, #miniatura-puesto-cagliero, #miniatura-mirador-piedras-blancas, #miniatura-punta-norte-hito-limitrofe, #miniatura-mirador-del-lago-del-desierto, #miniatura-kayak, #miniatura-kayak-rdv, #miniatura-rafting, #miniatura-bosque-la-leona, #miniatura-mtb-ldd, #miniatura-cabalgata, #miniatura-ice-trekking-glaciar-cagliero, #miniatura-glaciar-vespignani, #miniatura-casa-madsen, #miniatura-excursion-fishing, #miniatura-excursion-refugio-de-glaciares, #miniatura-excursion-bonanza-full-day, #miniatura-excursion-bonanza-mtb, #miniatura-excursion-bonanza-cabalgata, #miniatura-excursion-rio-de-las-vueltas-rafting {  height: 150px !important; margin-bottom: 0.6em !important; }
+
+
+	.miniaturas-actividades h4 {font-size: 1.0em !important; }
+	.miniaturas-actividades .card-text  {font-size: 0.7em !important; font-weight: 200 !important; line-height: 1.2em !important; padding-bottom:0.5em !important}
+
+	#referencias {font-size: 1em !important; line-height: 1.5em !important; padding-top: 0 !important; margin-top: 0 !important; padding-bottom: 1.2em !important; }
+	#referencias-actividades p {font-size: 0.8em !important;}
+	#referencias-actividades .btn {font-size: 0.8em !important;}
+
+	#excursiones-slide1, #excursiones-slide2, #excursiones-slide3, #excursiones-slide4, #excursiones-slide5, #excursiones-slide6, #excursiones-slide7, #excursiones-slide8, #excursiones-slide9 { height: 150px !important; background-size: cover !important}
+}
+
+
+
+

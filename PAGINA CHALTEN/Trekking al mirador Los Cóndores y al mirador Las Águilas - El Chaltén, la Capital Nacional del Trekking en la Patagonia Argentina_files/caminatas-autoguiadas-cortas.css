@@ -1,0 +1,166 @@
+/* Hero */
+#chorrillo-del-salto { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center top no-repeat; background-size: cover; height: 600px; }
+#mirador-los-condores-las-aguilas { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/mirador-los-condores-hero.jpg) center 80% no-repeat; background-size: cover !important; height: 600px; }
+#mirador-margarita { background: url(https://imgs2000.s3.sa-east-1.amazonaws.com/mirador-margarita-hero.jpg) center top no-repeat; background-size: cover !important; height: 600px; }
+
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 600px !important}
+
+
+/* Fotos ilustrativas */
+#img_arroyo-del-salto {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/arroyo-del-salto.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_bosque-piemontano {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/bosque-piemontano.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_chorrillo-congelado {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/chorrillo-congelado.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_sendero-chorrillo {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/sendero-chorrillo.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_orquidea-magallanica {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/orquidea-magallanica.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_chorrillo-del-salto {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/chorrillo-del-salto.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_mirador-del-torre {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-del-torre.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_cartel-senda-laguna-torre {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-laguina-torrea.jpg) center center no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_cartel-senda-laguna-torre2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-laguina-torreb.jpg) center center no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_condor1 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/condor1.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_condor2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/condor2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_cartel-mirador-condores {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-los-condores-cartel.jpg) center center no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_cartel-condores-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-condores-aguilas.jpg) center center no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_mirador-los-condores {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-los-condores.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_sendero-mirador-las-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/sendero-mirador-las-aguilas.jpg) center center no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_mirador-las-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-las-aguilas.jpg) center bottom no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_cerro-solo {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cerro-solo.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+#img_mirador-margarita-senda {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-senda.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}			
+#img_mirador-margarita-senda2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-sendab.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}			
+#img_mirador-margarita-rio {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-rio.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}			
+#img_mirador-margarita-cascada {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-cascada.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}		#img_mirador-margarita-cerros {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-cerros.jpg) center top no-repeat; background-size: cover !important; display: block; height: 360px !important;}
+
+
+/* Estilos específicos */
+#jumbotron_generico.caminatas-autoguiadas {padding-bottom: 2em !important; } 
+.caminatas-caracteristicas { background: #7f8c8d; padding:1em 1.5em 1em 1.5em; margin-bottom: 2em !important; border-radius: 6px; display: block }
+.caminatas-autoguiadas h4 {font-size: 1.2em; font-weight: 300 !important; text-align: center !important; color:#fff;}
+.caminatas-autoguiadas i {padding-right: 0.4em; color: #f1c40f; font-size: 1.4em !important; position: relative !important;	top:0.1em !important;}
+
+
+/* Breakpoints */
+@media (max-width: 1600px) { }
+@media (max-width: 1366px) { 
+#chorrillo-del-salto {height: 460px !important; } 
+#mirador-los-condores-las-aguilas {height: 440px !important; } 
+#mirador-margarita {height: 440px !important; } 
+}
+@media (max-width: 1200px) { }
+@media (max-width: 1112px) { 
+#jumbotron_generico.caminatas-autoguiadas {padding-bottom: 2em !important; }  
+.caminatas-caracteristicas { padding:1em 1.5em 1em 1.5em; margin-bottom: 1.5em !important; }
+.caminatas-autoguiadas h4 {font-size: 1.1em !important; }
+.caminatas-autoguiadas i {font-size: 1.3em !important; }
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros { height: 310px !important;}
+}
+@media (max-width: 1024px) { 
+#chorrillo-del-salto { background: url(/v4/imgs/1000/chorrillo-del-salto.jpg) center top no-repeat; height: 360px !important; background-size: cover;} 
+#mirador-los-condores-las-aguilas { background: url(/v4/imgs/1000/mirador-los-condores-hero.jpg) center 80% no-repeat !important; height: 360px !important; background-size: cover !important; }
+#mirador-margarita { background: url(/v4/imgs/1000/mirador-margarita-hero.jpg) right top no-repeat !important; height: 360px !important; background-size: cover !important; }
+}
+@media (max-width: 992px) {
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_mirador-del-torre, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros  { height: 350px !important;}
+}
+@media (max-width: 981px) { 
+.caminatas-caracteristicas { padding:1em 1.2em 1em 1.2em; margin-bottom: 1.2em !important; }
+.caminatas-autoguiadas h4 {font-size: 1.0em !important; }
+}
+@media (max-width: 960px) { 
+.caminatas-autoguiadas h4 {font-size: 1.1em !important; } 
+#img_chorrillo-del-salto {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/chorrillo-del-salto2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_orquidea-magallanica {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/orquidea-magallanica2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_sendero-chorrillo {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/sendero-chorrillo2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_chorrillo-congelado {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/chorrillo-congelado2.jpg) center top no-repeat !important; background-size: cover !important; display: block; height: 230px !important;}
+#img_bosque-piemontano {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/bosque-piemontano2.jpg) center top no-repeat !important; background-size: cover !important; display: block; height: 230px !important;}
+#img_valle-rio-de-las-vueltas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/valle-rio-de-las-vueltas2.jpg) center top no-repeat !important; background-size: cover !important; display: block; height: 230px !important;}
+#img_mirador-del-fitz-roy {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-del-fitz-roy2.jpg) center top no-repeat !important; background-size: cover !important; display: block; height: 250px !important;}
+#img_mirador-del-torre {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-del-torre2.jpg) center top no-repeat !important; background-size: cover !important; display: block; height: 230px !important;}
+#img_cartel-senda-laguna-torre {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-laguina-torrea2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_cartel-senda-laguna-torre2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-laguina-torreb2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_mirador-los-condores {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-los-condores2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;;}
+#img_condor1 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/condor12.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_condor2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/condor22.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_cartel-mirador-condores {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-los-condores-cartel2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_cartel-condores-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cartel-condores-aguilas2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_sendero-mirador-las-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/sendero-mirador-las-aguilas2.jpg) center center no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_mirador-las-aguilas {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-las-aguilas2.jpg) center bottom no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_cerro-solo {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/cerro-solo2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+
+#img_mirador-margarita-senda {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-senda2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}			
+#img_mirador-margarita-senda2 {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-sendab2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}			
+#img_mirador-margarita-rio {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-rio2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}			
+#img_mirador-margarita-cascada {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-cascada2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+#img_mirador-margarita-cerros {background: url(https://elchalten-imgs-ilustrativas.s3.sa-east-1.amazonaws.com/mirador-margarita-cerros2.jpg) center top no-repeat; background-size: cover !important; display: block; height: 230px !important;}
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 460px !important}
+
+}
+
+@media (max-width: 834px) { 
+.caminatas-autoguiadas h5 {font-size: 1.2em; font-weight: 400; }
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 340px !important}
+}
+@media (max-width: 800px) {
+.caminatas-autoguiadas h4 {font-size: 1.1em; font-weight: 400; }
+.caminatas-autoguiadas h5 {font-size: 1.1em; font-weight: 400; } 
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 450px !important}
+}
+@media (max-width: 782px) { }
+@media (max-width: 768px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas,. #mirador-margarita { height: 300px !important; } 
+.caminatas-caracteristicas { padding:1em 1.5em 1em 1.5em; margin-bottom: 1.5em !important; }
+.caminatas-autoguiadas h4 {font-size: 1em !important; }
+.caminatas-autoguiadas i {font-size: 1.3em !important; }
+ }
+@media (max-width: 736px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas, #mirador-margarita { height: 280px !important; }
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros  { height: 260px !important;}
+}
+@media (max-width: 694px) { 
+.mapa {display: none}
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros  { height: 270px !important;}
+}
+@media (max-width: 678px) { 
+.caminatas-autoguiadas h4 {font-size: 1.1em; font-weight: 400; } 
+#jumbotron_generico.caminatas-autoguiadas {padding-bottom: 2em !important; } 
+}
+@media (max-width: 667px) { }
+@media (max-width: 639px) { }
+@media (max-width: 600px) { }
+
+@media (max-width: 568px) { 
+#chorrillo-del-salto { background: url(/v4/imgs/500/chorrillo-del-salto.jpg) center top no-repeat; background-size: cover; height: 220px !important; } 
+#mirador-los-condores-las-aguilas { background: url(/v4/imgs/500/mirador-los-condores-hero.jpg) center 80% no-repeat; height: 200px !important; background-size: cover; }
+#mirador-margarita { background: url(/v4/imgs/500/mirador-margarita-hero.jpg) right top no-repeat; height: 200px !important; background-size: cover; }
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 280px !important}
+}
+@media (max-width: 551px) { 
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros { height: 240px !important;}
+}
+@media (max-width: 540px) { }
+@media (max-width: 507px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas, #mirador-margarita { height: 250px !important; } 
+.caminatas-caracteristicas { padding:0.2em 1em 0.2em 1em; margin-bottom: 0 !important; background: none; }
+.caminatas-autoguiadas h4 {font-size: 1.3em !important; text-align: left !important; color: #888; font-weight: 400 !important; line-height: 1.5em !important}
+.caminatas-autoguiadas i {font-size: 1.3em !important; top:0.05em !important; color: green}
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 400px !important}
+}
+@media (max-width: 470px) { }
+@media (max-width: 438px) { }
+@media (max-width: 414px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas, #mirador-margarita { height: 230px !important; } 
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros { height: 185px !important;}
+.caminatas-caracteristicas {padding:0.3em; margin-bottom: 0 !important; margin-top: 0 !important;border-radius: 0; }
+.caminatas-autoguiadas h4 {font-size: 1.2em !important; text-align: left !important; }
+.caminatas-autoguiadas i {font-size: 1.2em !important; }
+}
+@media (max-width: 375px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas, #mirador-margarita { height: 220px !important; } 
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros { height: 170px !important;}
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 350px !important}
+}
+@media (max-width: 320px) { 
+#chorrillo-del-salto, #mirador-los-condores-las-aguilas, #mirador-margarita { height: 200px !important; } 
+#img_bosque-piemontano, #img_chorrillo-congelado, #img_sendero-chorrillo, #img_orquidea-magallanica, #img_chorrillo-del-salto, #img_condor1, #img_condor2, #img_cartel-mirador-condores, #img_cartel-senda-laguna-torre, #img_cartel-senda-laguna-torre2, #img_cartel-condores-aguilas, #img_mirador-los-condores, #img_sendero-mirador-las-aguilas, #img_mirador-las-aguilas, #img_cerro-solo, #img_mirador-margarita-senda, #img_mirador-margarita-senda2, #img_mirador-margarita-rio, #img_mirador-margarita-cascada, #img_mirador-margarita-cerros { height: 150px !important;}
+.caminatas-autoguiadas h4 {font-size: 1.1em !important; }
+.caminatas-autoguiadas i {font-size: 1em !important;}
+.mapa-caminata-mirador-margarita, .mapa-caminata-mirador-condores, .mapa-caminata-chorrillo-del-salto {height: 320px !important}
+}

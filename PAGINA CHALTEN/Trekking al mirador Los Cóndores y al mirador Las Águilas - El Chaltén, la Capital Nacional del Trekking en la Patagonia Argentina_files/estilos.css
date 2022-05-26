@@ -1,0 +1,990 @@
+/* Comunes */
+
+body { padding-top: 4.5rem; background: #fff; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-family: 'Roboto', sans-serif; font-size: 16px; color:#404040;  }
+p, i { font-size: 1.1em; font-family: 'Roboto', sans-serif; } 
+h1, h2, h3, h4, h5 { font-family: 'Ubuntu', sans-serif}
+.btn { font-size: 16px;}
+.jumbotron h1 { font-size: 4em; font-weight: 300;}
+.botones {padding-bottom: 0; margin-bottom: 0;}
+
+.breadcrumb {margin-bottom: 2em;}
+.social { width:100%; padding-bottom: 1.8em !important;}
+#comparte {padding-right: 0.5em !important; float: left; margin-top: 1em !important;}
+
+.epigrafes-blanco, .epigrafes-negro {font-size: 0.8em; text-align: right; padding: 0 1em 1em 0; position:relative; right: 0; margin:0 !important; top: 92% !important; display: block; }
+.epigrafes2-blanco, .epigrafes2-negro {font-size: 0.8em; text-align: right; padding: 0 1em 1em 0; position:relative; right: 0; margin:0 !important; top: 97% !important; display: block; }
+
+.epigrafes-blanco, .epigrafes2-blanco {color: #fff;}
+.epigrafes-blanco {text-shadow: 0px 1px #000000; }
+
+.epigrafes-negro, .epigrafes2-negro {color: #000;}
+.epigrafes-negro {text-shadow: 0px 1px #ffffff;}
+
+#compartir-pagina { margin: 1em auto !important;}
+
+/* MATERIAL DESIGN ICONS SNIPPET */
+.mdi::before { line-height: 14px; }
+.btn .mdi::before { position: relative; top: 4px; }
+.btn-xs .mdi::before { font-size: 18px; top: 3px; }
+.btn-sm .mdi::before { font-size: 18px; top: 3px; }
+.dropdown-menu .mdi { width: 18px; }
+.dropdown-menu .mdi::before { position: relative; top: 4px; left: -8px; }
+.nav .mdi::before { position: relative; top: 4px; }
+.navbar .navbar-toggle .mdi::before { position: relative; top: 4px; color: #FFF; }
+.breadcrumb .mdi::before { position: relative; top: 4px; }
+.breadcrumb a:hover { text-decoration: none; }
+.breadcrumb a:hover span { text-decoration: underline; }
+.alert .mdi::before { position: relative; top: 4px; margin-right: 2px; }
+.input-group-addon .mdi::before { position: relative; top: 3px; }
+.navbar-brand .mdi::before { position: relative; top: 2px; margin-right: 2px; }
+.list-group-item .mdi::before { position: relative; top: 3px; left: -3px }
+
+/* NAVBAR */
+.navbar { background-color: #505050; font-family: 'Roboto', sans-serif; padding-top: 1rem; padding-bottom:1rem; color:#ddd;  }
+.navbar a { color:#ddd; font-weight: 400; font-size: 1.1em;}
+.navbar a:hover, .navbar a:active { color:#fff;}
+.dropdown-divider { border-color: #666; margin:0.5em !important;}
+.nav-item {font-size: 1.0em; font-weight: 200; margin-left:0.66em; }
+.dropdown-menu { display: none; font-size: 1em; position: absolute; left: -8px; top: 40px; box-shadow: 3px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; padding: 0.3em 0.3em 0.3em 0.3em; min-width: 220px; line-height: 1.6em !important; margin-top: 0 !important; padding-top: 20px !important}
+.dropdown-menu a { float: none; margin: 0; color:#eee; text-decoration: none; display: block; font-weight: 300;text-align: left; }
+.dropdown:hover .dropdown-menu { display: block; background: #505050; border: 0;}
+.dropdown-toggle:after { display:none !important;}
+.dropdown-item { padding-left: 0.3em; }
+.dropdown-item:hover { background: #333; color:#fff;}
+.dropdown-item:active { background: #ddd; color:#000; }
+.custom-toggler.navbar-toggler { background: rgb(80,80,80); }
+.custom-toggler .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.navbar-brand span { color: #fff;}
+
+/* JUMBO GENERICOS */
+#jumbotron_generico { background: #f6f6f6; padding: 4em 0 4em 0; margin-bottom: 0; }
+#jumbotron_generico h1 { color: #000; margin-bottom: 0.5em;}
+#jumbotron_generico h2 { color: #000; padding: 0 0 0.5em 0; font-weight: 400}
+#jumbotron_generico p { color: #858588; font-size: 1.2em; font-weight: 400; padding: 0 1em 1em 0; line-height: 1.6em;  margin:0;  }
+
+#itinerarios p { color: #808080 !important;}
+
+.imgs-izq {padding: 0; height: 100%; overflow: hidden; display: block; }
+.imgs-der {padding: 0; height: 100%; overflow: hidden; display: block; }
+
+.citas-izq { width:97%; padding:4em; border-radius: 8px; overflow: hidden; }
+.citas-der { width:100%; padding:4em; border-radius: 8px; overflow: hidden; }
+.citas-izq h3, .citas-der h3 { font-size: 1.6em; margin-bottom: 0; line-height: 1.5em; padding-bottom: 0.2em; color: #fff !important; font-family: 'Roboto', sans-serif; font-weight: 300; }
+.citas-izq p, .citas-der p { font-size: 1.2em !important; margin-bottom: 0; padding: 0 1em 0 0 !important; color: #fff !important; text-align: right; }
+
+.tips-actividades { width:100%; padding:2.6em; border-radius: 8px; overflow: hidden; background: #dee4e9;}
+.tips-actividades i { font-size: 2.3em !important; padding: 0 auto !important; color: #3498db; }
+.tips-actividades h3 { font-size: 1.4em; margin-bottom: 0; line-height: 1.5em; padding-bottom: 0.2em; color: #3498db; font-family: 'Roboto', sans-serif; font-weight: 400; text-align: center;}
+.tips-actividades p { font-size: 1em; margin-bottom: 0; padding: 0 ; color: #16a085; text-align: center; line-height: 1.4em !important; }
+
+#color1 { background: #2ecc71; }
+#color2 { background: #3498db; }
+#color3 { background: #e67e22; }
+#color4 { background: #1abc9c; }
+
+
+/* PIE DE PAGINA */
+
+#menu-pie {margin-top: 2em !important; padding-top: 2em !important; border-top: 1px solid #999; font-size: 1em !important; }
+#menu-pie li a {text-decoration: none !important; color:#ccc !important; font-size: 0.9em !important; font-weight: 300 !important}
+#menu-pie li a:active, #menu-pie li a:hover {text-decoration: none !important; color:#fff !important}
+#menu-pie ul {margin:0; padding: 0; margin-top: 1em; }
+#menu-pie li {margin:0; padding: 0; list-style: none !important; }
+
+#menu-pie-movil {padding: 1em !important; border-top: 1px solid #888; display: none; padding-top: 0 !important; margin-top: 2em !important;}
+#menu-pie-movil-apartado {border-bottom: 1px solid #888; padding-bottom: 1em !important; padding-top: 1em !important;}
+#menu-pie-movil h6 {margin: 0!important; padding: 0 !important}
+#menu-pie-movil h6 a {text-decoration: none; color:#f0f0f0; width: 100%; display: block;}
+#menu-pie-movil h6 a:active, #menu-pie-movil h6 a:hover {text-decoration: none; color:#fff}
+#menu-pie-movil ul {margin:0; padding: 0.5em 0 0 0 !important;  }
+#menu-pie-movil li {margin:0; padding: 0; list-style: none !important; }
+
+#menu-pie-movil li a {text-decoration: none !important; color:#a0a0a0 !important; }
+#menu-pie-movil li a:active, #menu-pie-movil li a:hover {text-decoration: none !important; color:#fff !important}
+
+#pie-leyenda {font-size: 0.85em !important; color: #c0c0c0 !important; font-weight: 300 !important; border-top: 1px solid #888; margin-top:2em; padding-top: 2em; text-align: left;}
+
+
+/* JUMBOS RESUMENES */
+#resumen { padding: 2.2em 0 2.2em 0 !important; margin-bottom: 0; margin-top: 0;background: #c0392b !important;}
+#resumen-actividades { padding: 2.2em 0 2.2em 0 !important; margin-bottom: 0; margin-top: 0;background: #27ae60 !important;}
+#resumen-actividades2000 { padding: 2.2em 0 2.2em 0 !important; margin-bottom: 0; margin-top: 0;background: #27ae60 !important;}
+
+
+#agradecimientos-fotografias { padding: 2.2em 0 2.2em 0 !important; margin-bottom: 0; margin-top: 0;background: #7f8c8d !important;}
+#resumen h1, #resumen-actividades h1 { text-align: center; color: #fff; font-weight: 400; padding-bottom:0.1em; font-size: 3em !important;}
+#resumen p, #resumen-actividades p { text-align: center; font-size: 1.2em !important; font-weight: 300; line-height: 1.5em; width:80%; padding:0; margin: 0 auto; }
+
+#resumen-comercial { padding: 2.2em 0 2.2em 0 !important; margin-bottom: 0; margin-top: 0;background: #f1c40f!important;}
+#resumen-comercial h1 { text-align: center; color: #000; font-weight: 400; padding-bottom:0.1em; font-size: 3em;}
+#resumen-comercial p { text-align: center; color: #444; font-size: 1.3em; font-weight: 300; line-height: 1.5em; width:80%; padding:0; margin: 0 auto; }
+
+
+#agradecimientos-fotografias h1 { text-align: center; color: #ccc; font-weight: 300; padding-bottom:0.1em;}
+#resumen p, #resumen-actividades p { text-align: center; color: #eee; font-size: 1.3em; font-weight: 300; line-height: 1.5em; width:80%; padding:0; margin: 0 auto; }
+#agradecimientos-fotografias p { text-align: center; color:#ccc !important; font-size: 1.3em; font-weight: 300; line-height: 1.5em; width:80%; padding:0; margin: 0 auto; }
+
+/* JUMBO ACTIVIDADES */
+#jumbotron_actividades { padding: 1em 1em 1em 1em; margin-bottom: 0; background: #27ae60; color:#fff; }
+#jumbotron_actividades2 { padding: 1em; background: #27ae60; color:#fff; text-align: left;}
+#actividades_intro { margin:0; padding-left: 3em; }
+#actividades_intro h1 { padding-top: 0.5em; }
+#actividades_intro p { font-family: 'Roboto', sans-serif; font-size: 1.5em; line-height: 1.5em; font-weight: 300; padding-right: 1em;}
+#actividades_descripcion { margin-top: 0;}
+#actividades_descripcion h1 {display: none;  margin-bottom: 1em; text-align: center;}
+#actividades_descripcion h2 {text-align: left; margin-bottom:0em; font-weight: 300; font-size: 2em; padding-top:1em; padding-bottom:0.4em; }
+#actividades_descripcion p {font-size: 1.4em; color: #ddd; font-weight: 300; display: block; text-align: left;  line-height: 1.5em; color:#eee; padding-right: 0em;}
+#actividades_botones {background: #27ae60; padding:0; margin:0}
+#actividades_botones h1 {font-size: 3.2em; font-weight: 400; margin-bottom:0.1em; color: #222;}
+#actividades_botones h4 {font-size: 1.0em; font-weight: 300; }
+#actividades_botones i {padding: 0; margin: 0 auto; }
+#actividades_botones .fa, #actividades_botones .fab, #actividades_botones .fas {margin-top:6px; margin-bottom: 5px;}
+#actividades_botones h2 {font-size: 3em; text-align: center}
+#actividades_botones h3 {font-size: 1.1em; font-weight: 500; padding-bottom:0.3em; margin-bottom: 0}
+#actividades_botones .row {padding: 3em 0 0 0; }
+#actividades_botones p {font-size: 0.8em; color: gray }
+.actividades { margin-bottom: 1em; padding:0; margin:0;}
+.actividades a { color:#222; padding:16px 8px 4px 8px; text-decoration: none; margin-bottom:0; display: block; background-color: #fff; border-radius: 6px;}
+.actividades a:hover { color:#222; background-color: #fff; box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);}
+
+/* JUMBO GUIA DE SERVICIOS */
+#combo_servicios {background: #f1c40f; }
+#combo_servicios h1 {font-size: 3.2em; font-weight: 400; margin-bottom:0.1em; color: #222;}
+#combo_servicios h4 {font-size: 1.0em; font-weight: 300; }
+#combo_servicios i {padding: 0; margin: 0 auto; }
+#combo_servicios .fa, #combo_servicios .fab, #combo_servicios .fas {margin-top:6px; margin-bottom: 5px;}
+#combo_servicios h2 {font-size: 3em; text-align: center}
+#combo_servicios h3 {font-size: 1.1em; font-weight: 500; padding-bottom:0.3em; margin-bottom: 0}
+#combo_servicios .row {padding-top: 3em; }
+#combo_servicios p {font-size: 0.8em; color: gray }
+#combo_servicios2 {background: #f1c40f; }
+#combo_servicios2 h1 {font-size: 3.2em; font-weight: 400; margin-bottom:0.1em; color: #222;}
+#combo_servicios2 h4 {font-size: 1.0em; font-weight: 300; }
+#combo_servicios2 i {padding: 0; margin: 0 auto; }
+#combo_servicios2 .fa, #combo_servicios2 .fab, #combo_servicios2 .fas {margin-top:6px; margin-bottom: 5px;}
+#combo_servicios2 h2 {font-size: 3em; text-align: center}
+#combo_servicios2 h3 {font-size: 1.1em; font-weight: 500; padding-bottom:0.3em; margin-bottom: 0}
+#combo_servicios2 .row {padding-top: 3em; }
+#combo_servicios2 p {font-size: 0.8em; color: gray }
+.guiadeservicios { margin-bottom: 1em; padding:0 10px 0 10px; color:red; }
+.guiadeservicios a { color:#222; padding:16px 8px;  text-decoration: none; padding-bottom: 0; margin-bottom:0; display: block; border: solid 1px #ccc; background-color: #fff; border-radius: 6px;}
+.guiadeservicios a:hover { color:#222; background-color: #fff; border: solid 1px #fff; box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);}
+
+/* JUMBO COMBOS */
+.combos {background: #01345b;}
+.combos h1 {text-align: center; margin:0; padding:0;}
+.combos p {text-align: center; font-weight: 300; font-size: 1.2em; margin:1em; padding: 0;}
+#campodehielo { background: url(/v4/imgs/inicio/bg_hielocontinental.jpg) center center no-repeat !important; background-size: cover; color: #fff; }
+#cuandoviajar { background: url(/v4/imgs/inicio/bg_cuandoviajar.jpg) center top no-repeat !important; background-size: cover; color: #fff; }
+#galerias { background: url(/v4/imgs/inicio/bg_galerias.jpg) center center no-repeat !important; background-size: cover; color: #fff; }
+
+#libros h2 {font-size: 2.4em !important; font-weight: 400 !important; padding-bottom: 0; margin-bottom:0 !important; color: #000 !important}
+#libros h3 {font-size: 1.4em !important; font-weight: 400 !important; padding-bottom: 1em; color: #444 !important}
+
+#libros h4 {margin:0; padding:0; font-size: 1.3em !important; font-weight: 400 !important; margin-bottom: 0.3em !important;}
+#libros h5 {margin:0; padding:0 0 0.5em 0; font-size: 1.0em !important; font-weight: 300 !important}
+
+#libros p {font-weight: 300; font-size: 1em; padding: 0; font-weight: 300; margin-bottom: 1em; color:#555;}
+.texto-chico {font-size: 0.85em !important; }
+
+#libros-tech-tapa {background: url(https://s3-sa-east-1.amazonaws.com/publicaciones-es/trekking_en_chalten_tapa.jpg) left top no-repeat !important; background-size: contain !important; display: block; } 
+#mapas-cho-frente {background: url(https://s3-sa-east-1.amazonaws.com/publicaciones-es/mapas.gif) left top no-repeat !important; background-size: contain !important; display: block; }
+
+
+/* Breakpoints */
+
+@media (max-width: 1600px) {
+    #actividades_descripcion { padding-top: 1em;}
+    #actividades_descripcion h2 { font-size: 2em; padding-top:0.5em; }
+    #actividades_descripcion p { font-size: 1.4em; line-height: 1.5em; text-align: left; padding-right: 0em; color:#eee; }
+	#combo_servicios h3 {font-size: 1em; }
+	#campodehielo { background-size: cover !important; padding: 6em 0 6em 0; }
+	#cuandoviajar { background: url(/v4/imgs/inicio/bg_cuandoviajar.jpg) top no-repeat !important; background-size: cover !important; padding: 6em 0 6em 0; }
+	#galerias { background-size: cover !important; padding: 6em 0 6em 0;  }
+	.combos h1 {font-size: 3.7em}
+	.combos p {font-size: 1.2em}
+}
+
+/* iPad Pro (12.9") */
+@media (max-width: 1366px) {
+	#actividades_intro h1 { padding-bottom: 0.3em; }
+	#resumen, #resumen-actividades, #resumen-comercial, #agradecimientos-fotografias {padding: 2em 0 2em !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 3em !important; }
+	#resumen-comercial h1 { font-size: 2.6em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 1.0em !important; width: 80% !important; padding:0 !important; line-height: 1.5em;}
+	
+}
+
+@media (max-width: 1200px) {
+	.nav-item {font-size: 1.0em; }
+	.jumbotron h1 { font-size: 3em;}
+	#galeriasdefotos { background-position-x: 22%!important; padding: 6em 0 6em 0;}
+	#galeriasdefotos p { font-size: 1.3em; padding: 0 30% 1.3em 30%;}
+	#jumbotron_actividades h1 {font-size: 3em; padding-bottom: 0.2em; }
+    #actividades_descripcion { padding-right: 2em; padding-left: 1em;}
+    #actividades_descripcion h1 { font-size: 3em; padding-top:0.5em;}
+    #actividades_descripcion h4 { font-size: 1.8em;}
+    #actividades_descripcion h2 { font-size: 1.8em; padding-top:0.5em; }
+    #actividades_descripcion p { font-size: 1.2em; text-align: left; padding-right: 0em; color:#eee; }
+	#combo_servicios h4 {font-size: 1.3em; }
+	#combo_servicios .row {padding-top: 3em; }
+	#combo_servicios h3 {font-size: 1.0em; }
+	#combo_servicios p {font-size: 0.6em; }
+	#campodehielo { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#cuandoviajar { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#galerias { background-size: 140% !important; padding: 5em 0 5em 0;  }
+	.combos h1 {font-size: 3.7em}
+	.combos p {font-size: 1.2em}
+}
+
+@media (max-width: 1112px) { 
+	#combo_servicios h3 {font-size: 0.88em;}
+	#actividades_intro h1 { padding-bottom: 0.3em; }
+	#campodehielo { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#cuandoviajar { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#galerias { background-size: 140% !important; padding: 5em 0 5em 0;  }
+	#jumbotron_generico p {font-size: 1.0em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial {padding: 2em 0 2em !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 3em !important; }
+	#resumen-comercial h1 { font-size: 2.5em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 1.1em !important; width: 90% !important; padding:0 !important; line-height: 1.6em;}
+	.dropdown-divider { margin:0.2em !important;}
+
+	.breadcrumb {margin-bottom: 1.5em;}
+	.social { padding-bottom: 1.5em !important;}
+
+.tips-actividades { padding:2em !important; }
+.tips-actividades i { font-size: 2.3em !important;  }
+.tips-actividades h3 { font-size: 1.3em; }
+.tips-actividades p { font-size: 1em; }
+	.epigrafes-blanco, .epigrafes-negro {top: 91% !important;}
+	.epigrafes2-blanco, .epigrafes2-negro {top: 95% !important;}
+
+
+	.citas-izq { width:97%; padding:3em; }
+	.citas-der { width:100%; padding:3em; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.3em !important; line-height: 1.5em !important; }
+	.citas-izq p, .citas-der p { font-size: 1.1em !important; }
+
+}
+
+
+/* iPad & iPad Mini horizontal / Netbooks */
+
+@media (max-width: 1024px) {
+	body {cursor: pointer; padding-top: 3.5rem;}
+	.navbar {padding-top: 0.5rem; padding-bottom:0.5rem; }
+	.dropdown-menu {line-height: 1.7em; font-size: 1.0em; margin-top: 0 !important; padding-top: 12px !important}
+	.nav-item {font-size: 1.0em; color:#444;}
+	.jumbotron h1 { font-size: 3em;}
+	#jumbotron_actividades h1 {text-align: left; padding-bottom: 0.6em; padding-top: 0.5em; font-size: 3em;}
+	#actividades_intro h1 { margin: 0.5em 0 0 0; }
+	#actividades_intro p { font-size: 1.3em; line-height: 1.5em; }
+	#actividades_descripcion { padding:0; margin:0; padding-right: 2em; padding-left: 1em;}
+	#actividades_descripcion h2 { font-size: 1.75em; padding-top: 0.5em; padding-bottom:0.6em; font-weight: 500;}
+	#actividades_descripcion p { font-size: 1.2em; line-height: 1.5em; color: #fff; text-align: left}
+	#actividades_botones h3 {font-size: 1em; font-weight: 500; padding-bottom:0.3em; margin-bottom: 0; }
+	#actividades_botones p {font-size: 1em; }
+	#combo_servicios {padding-top: 2.3em; padding-bottom: 2.3em;}
+	#combo_servicios2 {padding-top: 2.3em; padding-bottom: 2.3em;}
+	#combo_servicios h1, #combo_servicios2 h1 {font-size: 2.6em; }
+	#combo_servicios h2, #combo_servicios2 h2 {font-size: 2.5em; padding: 0; padding: 0; }
+	#combo_servicios h4, #combo_servicios2 h4 {font-size: 1.2em !important; font-weight: 300; }
+	#combo_servicios .row, #combo_servicios2 .row {padding-top: 3em; }
+	#combo_servicios h3 {font-size: 1em !important; }
+	#combo_servicios2 h3 {font-size: 0.85em !important; }
+	#combo_servicios p {font-size: 0.60em; padding: 0; }
+	#campodehielo { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#cuandoviajar { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#galerias { background-size: 140% !important; padding: 5em 0 5em 0; }
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial {padding: 1.5em 0 1.5em !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 2.5em !important; }
+	#resumen-comercial h1 { font-size: 2.4em !important; }
+	
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 1.1em !important; width: 80% !important; padding:0 !important; line-height: 1.5em;}
+	#jumbotron_generico { margin-top: 0 !important; margin-bottom:0 !important; padding: 3em 0 3em 0 !important; }
+	#jumbotron_generico h2 {font-size: 2em; font-weight: 400; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 1em !important; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+	.imgs-izq {height: 100%; }
+	
+
+	#comparte {padding-right: 0.8em !important; }
+
+	.tips-actividades { padding:2em !important; }
+	.tips-actividades i { font-size: 2em !important;  }
+	.tips-actividades h3 { font-size: 1.3em !important; }
+	.tips-actividades p { font-size: 1em !important; }
+}
+
+@media (max-width: 992px) {
+	#actividades_descripcion { padding-left:2.5em;}
+	#campodehielo { background-size: 160% !important; padding: 3em 0 3em 0; }
+	#cuandoviajar { background-size: 160% !important; padding: 3em 0 3em 0; }
+	#galerias { background-size: 140% !important; padding: 3em 0 3em 0; }
+}
+
+@media (max-width: 981px) {
+	#actividades_intro { padding-left: 2em; padding-right: 0; }
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; }
+	#actividades_intro p { font-size: 1.2em; line-height: 1.5em; padding-right: 0; color:#fff; }
+	#combo_servicios h2 {font-size: 3em; padding-bottom:0; margin-bottom: 0; }
+	#combo_servicios h3 {font-size: 1.2em; padding-top: 0.5em;}
+	#combo_servicios p {font-size: 1em; padding:0 1em 0 1em; }
+	#actividades_descripcion {margin:0; padding:1em; }
+	#actividades_descripcion h2 {text-align: left; margin-bottom:0em; font-weight: 400; font-size: 1.4em; padding-top:0em; padding-bottom:0.4em; }
+	#actividades_descripcion p {font-size: 1em; color: #ddd; font-weight: 300; display: block; text-align: left; line-height: 1.6em; color:#eee; padding-right: 0em;}
+	#actividades_botones h2 {font-size: 2.5em; text-align: center}
+	#actividades_botones h3 {font-size: 0.75em; font-weight: 500; padding:0em; margin: 0}
+	#actividades_botones .row {padding: 3em 0 0 0; margin: 0; }
+	#actividades_botones p {font-size: 0.7em; color: gray }
+	.actividades { margin-bottom: 0em; padding:0; margin:0;}
+	.actividades a { color:#222; padding:16px 8px 4px 8px; text-decoration: none; margin-bottom:0; display: block; background-color: #fff; border-radius: 6px;}
+	.actividades a:hover { color:#222; background-color: #fff; box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);}
+	#campodehielo { background: url(/v4/imgs/inicio/bg_hielocontinental2.jpg) center center no-repeat !important; background-size: 160% !important; padding: 4em 0 4em 0; }
+	#cuandoviajar { background: url(/v4/imgs/inicio/bg_cuandoviajar2.jpg) top no-repeat !important; background-size: 160% !important; padding: 4em 0 4em 0; }
+	#galerias { background: url(/v4/imgs/inicio/bg_galeriasb.jpg) center center no-repeat !important; background-size: 160% !important; padding: 4em 0 4em 0;  }
+	.combos h1 {font-size: 2.8em;}
+	.combos p {font-weight: 300; font-size: 1.2em; margin:1em 4em 1em 4em; padding: 0;}
+
+
+	.navbar { padding-top: 1em; padding-bottom: 1em;}
+	.navbar-nav {margin-bottom:0 !important; border-bottom: 1px solid #666 !important; padding-bottom: 0 !important; margin-top:0 !important; padding-top:0.8em !important; }
+	.nav-item {font-size: 1.0em; margin: 0 !important; background: #505050 !important; padding:0 !important;}
+	.nav-item:hover { background: #606060 !important; margin: 0 !important; padding: 0 !important;  }
+	.dropdown-menu { box-shadow: none; border: 0 !important; margin:0 !important; padding:0 !important; border: 1px solid #777 !important; border-radius: 0 !important; }
+	.dropdown-divider { display: none }
+
+	.nav-link {border-top: 1px solid #777 !important; margin-top: 0em !important; padding-top: 0.5em !important}
+	.nav-link:hover { background: #777 !important; font-weight: 600 !important; padding-left: 0.4em !important; }
+
+	.dropdown-item {border:0; margin: 0 !important; background: #606060 !important; padding:0.3em 0 0.2em 0 !important; }
+	.dropdown-menu a { float: none; margin: 0; color:#ccc; text-decoration: none; display: block; text-align: left; border-top: 1px solid #777;  }
+
+	.tips-actividades { padding:1.8em !important; }
+	.tips-actividades i { font-size: 2em !important;  }
+	.tips-actividades h3 { font-size: 1.3em !important; }
+	.tips-actividades p { font-size: 1em !important; }
+
+	#comparte {display: none !important}
+
+}
+
+@media (max-width: 960px) {
+
+	#tienda { display: none !important; margin-bottom: 0 !important; }
+
+	.jumbotron h1 { font-size: 2.2em;}
+
+	#combo_servicios {padding-top: 2.3em; padding-bottom: 2.3em;}
+	#combo_servicios h1 {font-size: 2.6em; }
+	#combo_servicios h4 {font-size: 1.0em; }
+	#combo_servicios .row {padding-top: 3em; }
+	#combo_servicios h2 {font-size: 3em; padding-bottom:0; margin-bottom: 0; }
+	#combo_servicios h3 {font-size: 1.2em; padding-top: 0.4em;}
+	#combo_servicios p {font-size: 0.75em; padding:0; line-height: 1.3em;}
+	#actividades_intro { padding-left: 2em; padding-right: 0; }
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; padding-top: 0em; padding-bottom: 0em; }
+	#actividades_intro p { font-size: 1.2em; line-height: 1.5em; padding-right: 0; color:#fff; }
+	#actividades_descripcion {margin:0; padding:1em; }
+	#actividades_descripcion h2 {text-align: left; margin-bottom:0em; font-weight: 400; font-size: 1.4em; padding-top:0em; padding-bottom:0.4em; }
+	#actividades_descripcion p {font-size: 1em; color: #ddd; font-weight: 300; display: block; text-align: left; line-height: 1.6em; color:#eee; padding-right: 0em;}
+	#actividades_botones h2 {font-size: 2.5em; text-align: center}
+	#actividades_botones h3 {font-size: 0.75em; font-weight: 500; padding:0em; margin: 0}
+	#actividades_botones .row {padding: 3em 0 0 0; margin: 0; }
+	#actividades_botones p {font-size: 0.7em; color: gray }
+	.actividades { margin-bottom: 0em; padding:0; margin:0;}
+	.actividades a { color:#222; padding:16px 8px 4px 8px; text-decoration: none; margin-bottom:0; display: block; background-color: #fff; border-radius: 6px;}
+	.actividades a:hover { color:#222; background-color: #fff; box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);}
+	#campodehielo { padding: 4em 0 4em 0;}
+	#cuandoviajar { padding: 4em 0 4em 0; }
+	#galerias { padding: 4em 0 4em 0; }
+	.combos h1 {font-size: 2.6em;}
+	.combos p {font-size: 1.2em; padding-left:15%; padding-right: 15%;}
+
+	#jumbotron_generico h2 {font-size: 1.6em; font-weight: 500; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 1.1em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+
+	.citas-izq, .citas-der { padding: 2.5em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.3em !important; }
+	.citas-izq p, .citas-der p { font-size: 1.1em !important; }
+
+.epigrafes-blanco, .epigrafes-negro {top: 90% !important;}
+
+}
+
+/* iPad Pro (10.5") V (834px) */
+
+@media (max-width: 834px) {
+	.jumbotron h1 { font-size: 2.2em; padding-left:0; }
+	.jumbotron h1 { font-size: 2.4em;}
+	#actividades_descripcion { padding:0 1em 0 0;}
+	#actividades_descripcion h2 {font-size: 1.4em;padding-bottom:1em; font-weight: 500; text-align: left}
+	#actividades_descripcion p {font-size: 1.1em; color: #fff; text-align: left }
+	#actividades_botones h2 {font-size: 2.6em; }
+	#actividades_botones h3 {font-size: 0.75em; }
+	#actividades_botones p {font-size: 0.8em; }
+	#combo_servicios h4 {font-size: 1.4em;}
+	#combo_servicios h2 {font-size: 3em; }
+	#combo_servicios h3 {font-size: 1.5em; padding-bottom:0; }
+	#combo_servicios .row {padding-top: 2.5em; }
+	#combo_servicios p {font-size: 0.9em; padding-bottom: 0;}
+	#campodehielo { background-size: 170% !important; padding: 4em 0 4em 0; }
+	#cuandoviajar { background: url(/v4/imgs/inicio/bg_cuandoviajar2.jpg) top no-repeat !important; background-size: 170% !important; padding: 4em 0 4em 0; }
+	#galerias { background: url(/v4/imgs/inicio/bg_galeriasb.jpg) center center no-repeat !important; background-size: 170% !important; padding: 4em 0 4em 0;  }
+	.combos h1 {font-size: 2.4em;}
+	.combos p {font-weight: 300; font-size: 1.1em; margin:1em 7em 1em 7em; padding: 0;}
+
+
+	#jumbotron_generico h2 {font-size: 1.5em; font-weight: 400; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 1.1em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+
+	.citas-izq, .citas-der { padding: 3em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.5em !important; }
+	.citas-izq p, .citas-der p { font-size: 1.1em !important; }
+
+	.tips-actividades { padding:1.8em !important; }
+	.tips-actividades h3 { font-size: 1.4em !important; line-height: 1.5em !important; }
+	.tips-actividades p { font-size: 1em !important; line-height: 1.4em !important; }
+
+}
+/* VGA 800x600px */
+@media (max-width: 800px) {
+	#combo_servicios h1 {font-size: 2.4em; }
+	#combo_servicios h4 {font-size: 1.2em; }
+	#combo_servicios h2 {font-size: 2.2em; }
+	#combo_servicios h3 {font-size: 1em; padding: 0.2em 0 0.4em 0;}
+	#combo_servicios p {font-size: 0.72em; color: #888; padding-left:0; padding-right: 0;}
+	#actividades_intro { padding-left: 2em; }
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; }
+	#actividades_intro p { font-size: 1.2em; line-height: 1.5em; padding-right: 0; }
+	#actividades_descripcion { padding:0; margin:0; text-align: left}
+    #actividades_descripcion h1 { display: block; padding-top: 0.2em; font-size: 2.5em; margin-bottom: 0em;}
+	#actividades_descripcion h2 {font-size: 1.4em;padding-bottom:1em; font-weight: 500; }
+    #actividades_descripcion h3 { font-size: 2em; text-align: left}
+    #actividades_descripcion h4 { font-size: 2em; text-align: left}
+	#actividades_descripcion p {font-size: 1.1em; color: #fff; }
+	#actividades_botones h2 {font-size: 2.6em; }
+	#actividades_botones h3 {font-size: 0.75em; }
+	#actividades_botones p {font-size: 0.8em; }
+	#campodehielo { padding: 4em 0 4em 0;}
+	#cuandoviajar { padding: 4em 0 4em 0;}
+	#galerias { padding: 4em 0 4em 0;  }
+	.combos h1 {font-size: 2.6em;}
+	.combos p {font-weight: 300; font-size: 1.2em; margin:1em 7em 1em 7em; padding: 0;}
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial { padding: 1.5em 0 1.5em 0!important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 2em !important; }
+	#resumen-comercial h1 { font-size: 1.8em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p {font-size: 1em !important; width:100%; padding:0; line-height: 1.6em;   }
+	#jumbotron_generico h2 { padding: 0 0 0.2em 0 !important; font-weight: 400; font-size: 1.6em;}
+	#jumbotron_generico p {font-size: 1.0em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+	.social { padding-bottom: 1em !important; padding-top: 0.4em !important;}
+
+	.citas-izq, .citas-der { padding: 2em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.2em !important; }
+	.citas-izq p, .citas-der p { font-size: 1.1em !important; }
+
+
+}
+
+/* 782px */
+@media (max-width: 782px) {
+	#jumbotron_generico h2 { padding: 0 0 0.2em 0 !important; font-weight: 400; font-size: 1.6em;}
+	#combo_servicios p {font-size: 0.9em; padding-bottom: 0;}
+	#campodehielo { background-size: 180% !important; padding: 3em 0 3em 0; }
+	#cuandoviajar { background: url(https://s3-sa-east-1.amazonaws.com/elchalten-imgs-inicio/bg_cuandoviajar2.jpg) center top no-repeat !important; background-size: 180% !important; padding: 3em 0 3em 0; }
+	#galerias { background-size: 180% !important; padding: 3em 0 3em 0;  }
+	#imagen1, #imagen2, #imagen3, #imagen4, #imagen5, #imagen6, #imagen7, #imagen8, #imagen9, #imagen10, #imagen11 {background-position-x: 120px;  }
+
+}
+
+/* iPad vertical */
+
+@media (max-width: 768px) { 
+	.jumbotron h1 { font-size: 2.7em;}
+	#actividades_intro { padding-left: 2em; padding-right: 0; }
+	#actividades_intro h1 { font-size: 2.5em; margin: 0.4em 0 0.4em 0; }
+	#actividades_intro p { font-size: 1.2em; line-height: 1.5em; padding-right: 0;}
+	#actividades_descripcion { padding:0 !important; margin:0 !important;}
+	#actividades_descripcion h2 {font-size: 1.4em; padding-bottom:0.6em; padding-top: 0.6em !important; font-weight: 500;  }
+	#actividades_descripcion p {font-size: 1.1em; color: #fff; text-align: left !important; line-height: 1.4em; padding-right: 1em !important}
+	#actividades_botones h2 {font-size: 2.6em; }
+	#actividades_botones h3 {font-size: 0.75em; }
+	#actividades_botones p {font-size: 0.8em; }
+	#combo_servicios h1, #combo_servicios2 h1 {font-size: 2.5em !important; }
+	#combo_servicios h4, #combo_servicios2 h4 {font-size: 1.2em !important;}
+	#combo_servicios .row, #combo_servicios2 .row {padding-top: 2.6em; }
+	#combo_servicios h2, #combo_servicios2 h2  {font-size: 3em; }
+	.iconos-svg {margin-bottom:0.15em; margin-top: 0.15em; width: 1.04em; height: 1.04em; ;}
+	#combo_servicios h2 {font-size: 3em;}
+	#combo_servicios h3 {font-size: 1.4em !important; font-weight: 500; }
+	#combo_servicios2 h3 {font-size: 1em !important; font-weight: 400; }
+	#combo_servicios p {font-size: 1em !important; line-height: 1.2em; padding:0 0.4em 0 0.4em; }
+	#campodehielo { background-size: 180% !important; padding: 3em 0 3em 0; }
+	#cuandoviajar { background-size: 180% !important; padding: 3em 0 3em 0; }
+	#galerias { background-size: 180% !important; padding: 3em 0 3em 0;  }
+	.combos h1 {font-size: 2.5em !important;}
+	.combos p {font-weight: 300; font-size: 1.2em; margin:1em 4em 1em 4em; padding: 0;}
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial { padding: 1.6em 0 1.6em 0 !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 2.2em !important; }
+	#resumen-comercial h1 { font-size: 2em !important; }
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 1.1em !important; width: 100% !important; padding:0 !important; line-height: 1.6em;}
+	#jumbotron_generico { padding: 2em 0 2em 0 !important; margin-bottom: 0; }
+	#jumbotron_generico h1 { color: #000; margin-bottom: 0.5em;}
+	#jumbotron_generico h2 { font-size: 1.7em !important; color: #000; padding: 0 0 0.5em 0; font-weight: 500}
+	#jumbotron_generico p { font-size: 1.0em !important; padding: 0 0 1em 0; line-height: 1.6em;  }
+
+	.citas-izq, .citas-der { padding: 2.2em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.2em !important; }
+	.citas-izq p, .citas-der p { font-size: 1em !important; }
+
+
+
+
+	.tips-actividades { padding:1.6em !important; }
+	.tips-actividades i { font-size: 2em !important;  }
+	.tips-actividades h3 { font-size: 1.3em !important; }
+	.tips-actividades p { font-size: 1em !important; }
+	.epigrafes2-blanco, .epigrafes2-negro {top: 100% !important;}
+	#libros h2 {font-size: 1.75em !important; }
+	#libros h3 {font-size: 1.2em !important; }
+	#libros h4 {font-size: 1.0em !important; }
+	#libros p {font-size: 0.75em !important; }
+}
+
+/* col-md */
+
+/* iPhone 8 Plus H */
+
+@media (max-width: 737px) { 
+	#actividades_intro { padding: 0; margin: 0; padding-left:1.5em; }
+	#actividades_intro h1 { margin: 0.3em 0 0.5em 0; font-size: 2.4em;}
+	#actividades_intro p { font-size: 1em; line-height: 1.4em; padding-right: 0; padding-left:0; padding-bottom:0; margin-right:0; color:#fff; }
+	#actividades_descripcion { padding-left:2em; }
+	#actividades_descripcion h1 { font-size: 2.4em; display: block; margin-bottom: 0em; }
+	#actividades_descripcion h2 { font-size: 2em; margin-top:0; padding-top:1em; border-top: 1px solid #eee;}
+	#actividades_descripcion p { font-size: 1.2em; padding-right: 0; margin-right: 0;}
+	#combo_servicios p {font-size: 0.80em !important; line-height: 1.4em; padding: 0.2em; }
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial {padding: 1em 0 1em !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 2em !important; }
+	#resumen-comercial h1 { font-size: 1.8em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 1.0em !important; width: 100% !important; padding:0 !important; line-height: 1.4em;}
+	.imgs-izq { height: 250px !important; margin:0 0 2em 0 !important; box-shadow: none !important; } 	
+	.imgs-der { height: 250px !important; margin:2em 0 0 0 !important; box-shadow: none !important; } 	
+	.citas-izq { width:100%; padding:3em; margin-bottom: 2em !important; }
+	.citas h3 { font-size: 1.4em !important; }
+	.citas p { font-size: 1.1em !important; }
+
+	#jumbotron_generico h2 {font-size: 1.2em; font-weight: 500; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 1em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+	.citas-izq, .citas-der { padding: 2.5em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.2em !important; }
+	.citas-izq p, .citas-der p { font-size: 1em !important; }
+
+	.tips-actividades { padding:1.5em !important; }
+	.tips-actividades h3 { font-size: 1.3em !important; line-height: 1.5em !important; }
+
+	#menu-pie {display: none}
+	#menu-pie-movil {display: block}
+	#pie-leyenda {font-size: 1em; border: none; margin-top: 0em; padding-top: 1em;}
+
+}
+
+
+
+/* iPad mini H - split */
+@media (max-width: 694px) {
+	#jumbotron_generico { padding: 2em 0 2em 0 !important;  }
+	#jumbotron_generico .container{ padding: 0; }
+	.imgs-izq { height: 300px !important; } 	
+	.imgs-der { height: 300px !important; } 	
+	#actividades_intro { padding: 0 0 0 2em; margin: 0;}
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; font-size: 2.3em;}
+	#actividades_intro p { font-size: 1.1em; line-height: 1.4em; padding-right: 0; padding-bottom:0; color:#fff; }
+	#actividades_descripcion { padding:0; }
+	#actividades_descripcion h2 { font-size: 2em; display: block; margin-bottom: 0em; padding-top:1em; border-top: 1px solid #ccc;}
+	#actividades_descripcion p { font-size: 1.2em; padding-right: 0; margin-right: 0;}
+	#actividades_botones h2 {font-size: 2.6em; padding-bottom: 0.1em}
+	#actividades_botones h3 {font-size: 1.2em; }
+	#actividades_botones p {font-size: 1em; }
+	#combo_servicios h3 {font-size: 1.5em; padding-top: 0.5em; }
+	#combo_servicios p {font-size: 1em; padding:0 0.3em 0 0.7em; }
+	#campodehielo { background-size: 180% !important; padding: 3em 1em 3em 1em; }
+	#cuandoviajar { background-size: 180% !important; padding: 3em 1em 3em 1em; }
+	#galerias { background-size: 180% !important; padding: 3em 1em 3em 1em;  }
+	.combos h1 {font-size: 2.4em;}
+	.combos p {font-weight: 300; font-size: 1.3em; margin:1em 4em 1em 4em; padding: 0;}
+
+}
+
+@media (max-width: 678px) {
+
+}
+
+@media (max-width: 667px) {
+	#actividades_intro { padding: 0; margin: 0; padding-left:1.5em; }
+	#actividades_intro h1 { margin: 0.3em 0 0.5em 0; font-size: 2.4em;}
+	#actividades_intro p { font-size: 1em; line-height: 1.4em; padding-right: 0; padding-left:0; padding-bottom:0; margin-right:0; color:#fff; }
+	#actividades_descripcion { padding-left:2em; }
+	#actividades_descripcion h1 { display: block; font-size: 2.2em; padding-top: 0; margin-bottom: 0.3em;}
+	#actividades_descripcion h4 { padding-top: 1em;}
+	#actividades_descripcion p { font-size: 16px; padding-right: 0; margin-right: 0;}
+	#combo_servicios2 {padding-top: 2.3em; padding-bottom: 2.2em;}
+	#combo_servicios2 h1 {font-size: 2.8em; }
+	#combo_servicios2 h4 {font-size: 1.5em;}
+	#combo_servicios2 .row {padding-top: 2em; padding-left:0; padding-right:0}
+	#combo_servicios2 h2 {font-size: 2.6em; }
+	#combo_servicios2 h3 {font-size: 1.1em; margin-bottom: 0.1em;}	
+	#combo_servicios p {font-size: 0.8em; padding:0 0.7em 0 0.7em; }
+	#campodehielo { background-size: 190% !important; }
+	#cuandoviajar { background-size: 190% !important; }
+	#galerias { background-size: 190% !important; }
+	.combos h1 {font-size: 2.2em;}
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial {padding: 0.75em 0 0.75 0 !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 1.75em !important; }
+	#resumen-comercial h1 { font-size: 1.5em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 0.9em !important; line-height: 1.4em;}
+	.imgs-izq { height: 250px !important; margin:0 0 2em 0 !important; } 	
+	.imgs-der { height: 250px !important; margin:2em 0 0 0 !important; }
+	#jumbotron_generico h2 {font-size: 1.2em; font-weight: 500; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 0.9em; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+}
+
+@media (max-width: 639px) {
+	#actividades_intro { padding: 0;}
+	#actividades_intro p { font-size: 1.2em; line-height: 1.5em; padding-right: 0;}
+
+	#campodehielo, #cuandoviajar, #galerias { background-size: 220% !important; padding: 3em 1em 3em 1em; }
+
+	.combos h1 {font-size: 2.2em;}
+	.combos p {font-weight: 300; font-size: 1.3em; margin:1em 4em 1em 4em; padding: 0;}
+}
+
+/* VGA 600x800px  */
+@media (max-width: 600px) {
+	.jumbotron h1 { font-size: 2.4em;}
+	.combos h1 {font-size: 2em;}
+	.combos p {font-weight: 300; font-size: 1.3em; margin:1em 4em 1em 4em; padding: 0;}
+
+	.citas-izq { width:100%; padding:3em; margin-bottom: 2em;}
+
+
+
+}
+
+/* iPhone SE horizontal / 568px */
+@media (max-width: 568px) {
+	body {padding-top: 2.8rem;}
+	.navbar {padding-top: 0.4rem; padding-bottom:0.4rem; }
+	.jumbotron h1 { font-size: 2.4em;}
+	#jumbotron_generico { padding: 1.4em !important;  }
+
+}
+
+@media (max-width: 551px) {
+	#jumbotron_generico { padding: 2em 1.5em 2em 1.5em!important; margin-bottom: 0; }
+	#campodehielo { background-size: 200% !important; padding: 3em 0 3em 0; }
+	#cuandoviajar { background-size: 200% !important; padding: 3em 0 3em 0; }
+	.combos h1 {font-size: 2em;}
+	.combos p {font-weight: 300; font-size: 1em; margin:1em 4em 1em 4em; padding: 0;}
+	.imgs-izq { height: 270px !important; margin:0 0 2em 0 !important; } 	
+	.imgs-der { height: 270px !important; margin:2em 0 0 0 !important; } 	
+
+}
+
+/* 540px (V) */
+@media (max-width: 540px) {
+	.btn { font-size: 14px;}
+	#combo_servicios p {font-size: 0.9em; padding:0.7em 0.7em 0 0.7em;}
+	.combos h1 {font-size: 1.6em;}
+	.combos p {font-weight: 300; font-size: 1em; margin:1em 4em 1em 4em; padding: 0;}
+	#campodehielo { padding: 3em 0 3em 0; background-size: 240% !important;}
+	#cuandoviajar { padding: 3em 0 3em 0; background-size: 240% !important;}
+	#galerias { padding: 3em 0 3em 0; background-size: 240% !important; }
+
+	#jumbotron_generico h2 {font-size: 1.8em; font-weight: 400; padding: 0 0 0.2em 0;  }
+	#jumbotron_generico p {font-size: 1.0em !important; padding: 0 0 1em 0; line-height: 1.6em;  margin:0;  }
+	.citas-izq { padding: 3em !important; margin-bottom:1.5em !important; }
+	.citas-der { padding: 3em !important; margin-top:0.66em !important;}
+	.citas-izq h3, .citas-der h3 { font-size: 1.4em !important; }
+	.citas-izq p, .citas-der p { font-size: 1.1em !important; }
+	.breadcrumb {font-size: 0.8em !important;}
+
+}
+
+/* iPad H Split 507px */
+@media (max-width: 507px) {
+	#combo_servicios {padding-top: 2.3em; padding-bottom: 2.2em;}
+	#combo_servicios h1 {font-size: 2.8em; }
+	#combo_servicios h4 {font-size: 1.5em;}
+	#combo_servicios .row {padding-top: 2em; padding-left:0; padding-right:0}
+	#combo_servicios h2 {font-size: 3em; }
+	#combo_servicios h3 {font-size: 1.3em; margin-bottom: 0.1em;}
+	#combo_servicios p {font-size: 0.9em; padding:0 0.7em 0 0.7em; }
+	#jumbotron_actividades2 {padding:1.5em; margin:0;}
+	#actividades_intro { padding:1.5em;}
+	#actividades_intro h1 { padding:0;}
+	#actividades_intro p { font-size: 1.3em; line-height: 1.5em; padding-right: 0.5em;}
+	#actividades_intro p strong { margin:0; border: 1px solid #fff; width:100%; display:block; line-height: 1.7em; padding:0.7em;}
+	#actividades_descripcion h2 { font-size: 2em; margin-bootom:0; padding: 1em 0.6em 0.5em 0.6em;}
+	#actividades_descripcion p {font-size: 1.2em; color: #fff; padding: 0 1em 1em 1em;}
+	#actividades_descripcion p strong { margin:0; border: 1px solid #fff; width:100%; display:block; line-height: 1.7em; padding:0.7em;}
+	#campodehielo { background-size: 320% !important; padding: 3em 1em 3em 1em; }
+	#cuandoviajar { background-size: 320% !important; padding: 3em 1em 3em 1em; }
+	#galerias { background-size: 320% !important; padding: 3em 1em 3em 1em;  }
+	.preguntas-frecuentes a { font-size: 1.25em !important; line-height: 1.5em !important; }
+
+}
+
+/* iPhone 6s Plus vertical */
+@media (max-width: 470px) { 
+	.btn { font-size: 19px;}
+	.jumbotron h1 {font-size: 2.6em;}	
+	#actividades_intro { padding:1em 0 0 2em;}
+	#actividades_intro p { font-size: 1.3em;line-height: 1.5em; padding-right: 0.5em;}
+	#imperdibles_combo {padding-top: 0em; height: 360px; margin-top: 1em;}
+	#imperdibles_combo h2 {font-size: 1.8em; font-weight: 300; padding-top: 0em; padding-bottom: 2em; border-bottom: 1px solid #88c;}
+	#cartas_bg { background: #eee; }
+	.destacados {font-size: 1.4em; margin-top: 1em; padding-right: 0em;}
+	.preguntas-frecuentes a { font-size: 1.4em !important; line-height: 1.5em !important; }
+
+}
+
+/* iPad Pro V Split2  */
+@media (max-width: 438px) { 
+	.btn { font-size: 18px;}
+	#combo_servicios {padding-top: 2.3em; padding-bottom: 2.2em;}
+	#combo_servicios h1 {font-size: 2.4em; }
+	#combo_servicios h4 {font-size: 1.3em;}
+	#combo_servicios .row {padding-top: 1.8em; }
+	#combo_servicios h2 {font-size: 3.0em; }
+	#combo_servicios h3 {font-size: 1.3em; font-weight: 500;}
+	#combo_servicios p {font-size: 0.8em; padding:0;}
+	#campodehielo { background-size: 350% !important; padding: 2em 1em 2em 1em; }
+	.combos h1 {font-size: 2.4em;}
+	.combos p {font-weight: 300; font-size: 1.2em; margin:1em 2em 1em 2em; padding: 0;}
+	#cuandoviajar { background-size: 350% !important; padding: 2em 1em 2em 1em; }
+	#galerias { background-size: 350% !important; padding: 2em 1em 2em 1em;  }
+	.social { padding-top: 1.5em !important; }
+
+}
+
+/* iPhone 6+ V & 8+ V */
+
+@media (max-width: 414px) { 
+	body {padding-top: 2.5rem;}
+	.navbar {padding-top: 0.3rem; padding-bottom:0.3rem; }
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial { padding: 1.5em 0 1.5em 0 !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 1.5em !important;}
+	#resumen-comercial h1 { font-size: 1.5em !important; }
+	.btn { font-size: 19px;}
+	.jumbotron h1 { font-size: 2.1em;}
+	#jumbotron_actividades2 { margin: 0 !important; padding: 0 1em 2em 1em!important;}
+	#actividades_intro { padding: 1em 1em 0 1em; margin-bottom: 0;}
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; }
+	#actividades_intro p { font-size: 1.3em; line-height: 1.7em; padding-right: 0; color:#fff; }
+	#actividades_intro p strong { margin:0; border: 1px solid #fff; width:100%; display:block; line-height: 1.7em; padding:0.7em;}
+	#actividades_descripcion { margin:0 !important; padding-bottom:0 !important}
+	#actividades_descripcion h2 {margin:0; font-size: 1.8em; border-top:1px solid #ccc; padding:1em 0 0.6em 0.35em !important; font-weight: 500; ;}
+	#actividades_descripcion p {font-size: 1.4em; color: #fff; padding: 0 0.5em 0 0.5em !important; margin:0 !important;}
+	#actividades_descripcion p strong { margin:0; border: 1px solid #ccc; width:100%; display:block; line-height: 1.4em; padding:0.7em; margin-bottom: 0 !important;}
+	#actividades_botones h2 {font-size: 2.6em; padding-bottom: 0.1em}
+	#actividades_botones h3 {font-size: 1em; }
+	#actividades_botones p {font-size: 0.9em; }
+	#combo_servicios, #combo_servicios2 { margin: 0 !important; padding: 2em 1em 2em 1em !important;}
+	#combo_servicios h1, #combo_servicios2 h1 { font-size: 2em !important; }
+	#combo_servicios h4, #combo_servicios2 h4 { font-size: 1.2em !important; line-height: 1.4em !important; padding-top: 0.3em !important; }
+	#combo_servicios .row { padding-top: 1.8em; }
+	#combo_servicios h2 { font-size: 3.0em; }
+	#combo_servicios h3 { font-size: 1.05em; padding: 0.5em 0 0.2em 0; }
+	#combo_servicios p { font-size: 0.8em; }
+	#campodehielo { background-size: 330% !important; padding: 2em 0 2em 0; }
+	#cuandoviajar { background-size: 310% !important; padding: 2em 0 2em 0; }
+	#galerias { background-size: 310% !important; padding: 2em 0 2em 0;  }
+	.combos { margin: 0 !important; }
+	.combos h1 { font-size: 2.1em !important; line-height: 1.4em; padding: 0 1em 0.5em 1em !important; }
+	.combos p { font-size: 1em; padding: 0 0.8em 1em 0.8em !important; margin: 0 !important; }
+	#jumbotron_generico { padding: 3em 2em 3em 2em!important;  }
+	#jumbotron_generico .container{ padding: 0 !important; }
+	#jumbotron_generico h1 { color: #000; margin-bottom: 0.5em;}
+	#jumbotron_generico h2 { color: #000; padding: 0 0 0.2em 0 !important; font-weight: 500; font-size: 1.6em;}
+	#jumbotron_generico p { font-size: 1.0em !important; padding: 0 0 1em 0; line-height: 1.6em;  }
+
+	.imgs-izq { height: 230px !important; margin:0 0 2em 0 !important; } 	
+	.imgs-der { height: 230px !important; margin:2em 0 0 0 !important; } 	
+
+	.citas-izq { padding:1.8em !important; margin-bottom: 1.6em !important; }
+	.citas-der { padding:1.8em !important; margin-top: 0em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.2em !important; }
+	.citas-izq p, .citas-der p { font-size: 1em !important; }
+
+	.tips-actividades { padding:1.25em !important; }
+	.tips-actividades h3 { font-size: 1.2em !important; }
+	.tips-actividades i { font-size: 2em !important; }
+	.epigrafes-blanco, .epigrafes-negro {font-size: 0.75em;top: 88% !important;}
+	.epigrafes2-blanco, .epigrafes2-negro {font-size: 0.75em;top: 99% !important;}
+
+
+	#resumen-botones .btn {font-size: 0.6em !important;}
+	#caminatas-clasicas .btn {font-size: 0.9em !important;}
+	.social { padding-top: 1em !important; }
+
+#libros h2 {font-size: 1.8em !important; }
+#libros h3 {font-size: 1.2em !important; }
+
+#libros h4 {font-size: 1.3em !important; margin-bottom:0.2em !important}
+#libros p {font-size: 0.8em !important; }
+
+
+	.dropdown-item {border:0; margin: 0 !important; background: #505050 !important; padding:0.1em 0 0.1em 0 !important; }
+	.dropdown-menu a { float: none; margin: 0; color:#ccc; text-decoration: none; display: block; text-align: left; border-top: 0 !important;  }
+	.dropdown-menu a:hover { background: #606060 !important;  }
+
+
+}
+
+/* iPhone 8 & 6s V / iPad V split */
+@media (max-width: 375px) { 
+	#jumbotron_generico { padding: 1.5em !important;  }
+	#jumbotron_generico h2 { font-size: 1.5em !important; font-weight: 500;}
+	#jumbotron_generico p { font-size: 1.1em; padding: 0 0 1em 0; line-height: 1.5em;  }
+
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial { padding: 1.6em 0 1.6em 0 !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 1.8em;}
+	#resumen-comercial h1 { font-size: 1.4em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 0.9em !important; width: 100% !important; line-height: 1.5em;}
+	.btn { font-size: 15px !important;}
+	.iconos-svg {margin-bottom:0.11em; margin-top: 0.11em; width: 1.1em; height: 1.1em; ;}
+	.iconos-svg2 {margin-bottom:0.1em; margin-top: 0.1em; width: 1em; height:1em; ;}
+	#actividades_intro { padding: 1em 1em 0 1em; margin-bottom: 0;}
+	#actividades_intro h1 { margin: 0.5em 0 0.5em 0; }
+	#actividades_intro p { font-size: 1.3em; line-height: 1.7em; padding-right: 0; color:#fff; }
+	#actividades_intro p strong { margin:0; border: 1px solid #fff; width:100%; display:block; line-height: 1.7em; padding:0.7em;}
+	#actividades_descripcion { padding: 0; }
+	#actividades_descripcion h2 {font-size: 1.6em; border-top:1px solid #ccc; padding-bottom:1em; padding-top:1em; font-weight: 500; }
+	#actividades_descripcion h4 { margin-bootom:0; padding-bottom: 0; padding-top: 2em;}
+	#actividades_descripcion p {font-size: 1.3em; line-height: 1.7em; color: #fff; }
+	#actividades_descripcion p strong { margin:0; border: 1px solid #ccc; width:100%; display:block; line-height: 1.4em; padding:0.7em; margin-bottom: 1em;}
+	#actividades_botones h2 {font-size: 2.6em !important; padding-bottom: 0.1em}
+	#actividades_botones h3 {font-size: 0.8em !important; }
+	#actividades_botones p {font-size: 0.7em; }
+	#combo_servicios, #combo_servicios2 { margin: 0 !important; padding: 2em 1em 2em 1em !important;}
+	#combo_servicios h1, #combo_servicios2 h1 {font-size: 1.9em !important; }
+	#combo_servicios h4, #combo_servicios2 h4 {font-size: 1em !important; line-height: 1.5em !important; padding-top: 0.3em}
+	#combo_servicios .row, #combo_servicios2 .row {padding-top: 2em; }
+	#combo_servicios h2, #combo_servicios2 h2 {font-size: 3.3em; }
+	#combo_servicios h3, #combo_servicios2 h3 {font-size: 1.1em !important; padding: 0.6em 0 0.3em 0;}
+	#combo_servicios p, #combo_servicios2 p {font-size: 0.7em !important; padding:0; }
+	#jumbotron_actividades .col {margin:0; padding:0; }
+	#jumbotron_actividades2 .col {margin:0; padding:0;}
+	#campodehielo { background-size: 360% !important; padding: 2em 0.6em 2em 0.6em; }
+	#cuandoviajar { background-size: 380% !important; padding: 2em 0.6em 2em 0.6em; }
+	#galerias { background-size: 380% !important; padding: 2em 0.6em 2em 0.6em;  }
+	.combos { margin: 0 !important; }
+	.combos h1 { font-size: 1.8em !important; line-height: 1.4em; padding: 0 1em 0.5em 1em !important; }
+	.combos p { font-size: 1em; padding:0 0.8em 1em 0.8em !important; margin: 0 !important; }
+	.imgs-izq { height: 210px !important; margin:0 0 1.5em 0 !important; } 	
+	.imgs-der { height: 210px !important; margin:1.5em 0 0 0 !important; } 	
+	.preguntas-frecuentes a { font-size: 1.2em !important; line-height: 1.4em !important; }
+	.social { padding-bottom: 1em !important; padding-top: 0.8em !important;}
+
+	.tips-actividades { padding:1.2em !important; }
+	.tips-actividades i { font-size: 2em !important; }
+
+#libros h2 {font-size: 1.75em !important; }
+#libros h3 {font-size: 1.2em !important; }
+#libros h4 {font-size: 1.1em !important; }
+#libros p {font-size: 0.85em !important; }
+
+	.navbar { padding-top: 0.5em !important; padding-bottom: 0.5em !important;}
+	.navbar-nav {border: 0 !important; padding-bottom: 0 !important; margin-top:0 !important; padding-top:0.4em !important; }
+	.nav-item {font-size: 1.2em; margin: 0 !important; background: #505050 !important; padding:0 !important;}
+	.nav-item:hover { background: #606060 !important; margin: 0 !important; padding: 0 !important;  }
+
+	.dropdown-menu { font-size: 0.8em !important; }
+
+	.nav-link {border-top: 1px solid #777 !important; margin-top: 0em !important; padding-top: 0.3em !important; font-size: 0.9em !important;}
+	.nav-link:hover { background: #777 !important; font-weight: 700 !important; padding-left: 0.2em !important; }
+
+	.dropdown-item {border:0; margin: 0 !important; background: #505050 !important; padding:0.1em 0 0.1em 0 !important; }
+	.dropdown-menu a { float: none; margin: 0; color:#ccc; text-decoration: none; display: block; text-align: left; border-top: 0 !important;  }
+	.dropdown-menu a:hover { background: #606060 !important;  }
+
+}
+
+/* iPhone SE */
+@media (max-width: 320px) {
+	#jumbotron_generico { padding: 1.4em !important;  }
+	#jumbotron_generico h2 { font-size: 1.3em !important; font-weight: 500;}
+	#jumbotron_generico p { font-size: 1em !important; padding: 0 0 0.5em 0; line-height: 1.5em;  }
+
+	#resumen, #resumen-actividades, #agradecimientos-fotografias, #resumen-comercial { padding: 1.6em 0 1.6em 0 !important; }
+	#resumen h1, #resumen-actividades h1, #agradecimientos-fotografias h1 { font-size: 1.5em !important; }
+	#resumen-comercial h1 { font-size: 1.2em !important; }
+
+	#resumen p, #resumen-actividades p, #agradecimientos-fotografias p, #resumen-comercial p { font-size: 0.8em !important; line-height: 1.4em;}
+	.imgs-izq { height: 150px !important; margin:0 0 1.5em 0 !important; } 	
+	.imgs-der { height: 150px !important; margin:1.5em 0 0 0 !important; } 	
+	.swiper-slide img { width:100% !important; }
+	.jumbotron h1 {font-size: 2em !important; }	
+	#jumbotron_actividades {width:320px;margin:0; padding: 0; }
+	#jumbotron_actividades .col {margin:0; padding:0; }
+	#jumbotron_actividades2 .col {margin:0; padding:0;}
+
+	#actividades_intro { padding:0 2em 0 2em;}
+	#actividades_intro h1 { margin: 0; font-size: 2em; padding: 1em 0 0.5em 0}
+	#actividades_intro p { font-size: 1em;line-height: 1.5em; padding-right: 0.5em;}
+	#actividades_intro p strong { margin:0; border: 1px solid #fff; width:100%; display:block; line-height: 1.7em; padding:0.7em;}
+	#actividades_descripcion h2 {font-size: 1.3em;padding-bottom:1em; padding-top: 1em;font-weight: 500; }
+	#actividades_descripcion p {font-size: 1em; color: #fff; line-height: 1.6em; }
+	#actividades_descripcion p strong { margin:0; border: 1px solid #ccc; width:100%; display:block; line-height: 1.4em; padding:0.7em;}
+	#actividades_botones .col {margin:0; padding:0; }
+	#actividades_botones h2 {font-size: 2.5em; text-align: center}
+	#actividades_botones h3 {font-size: 0.7em; font-weight: 500; padding:0em; margin: 0}
+	#actividades_botones .row {padding: 3em 0 0 0; margin: 0; }
+	#actividades_botones p {font-size: 0.7em; color: #666 }
+
+	#campodehielo { background-size: 370% !important; padding: 1.5em 1em 1.5em 1em; }
+	#cuandoviajar { background-size: 370% !important; padding: 1.5em 1em 1.5em 1em; }
+	#galerias { background: url(/v4/imgs/inicio/bg_galeriasc.jpg) center center no-repeat !important; background-size: 370% !important; padding: 1.5em 1em 1.5em 1em;  }
+	.combos { margin: 0 !important; padding: 1em 0.1em 1em 0.1em !important; }
+	.combos h1 { font-size: 1.5em !important; margin:0 !important; padding:0 0.5em 0 0.5em!important; }
+	.combos p { font-size: 0.8em !important; margin:0; padding:1em 0 1em 0 !important; }
+	#combo_servicios, #combo_servicios2 {padding-top: 2.0em !important; padding-bottom: 2.0em !important;}
+	#combo_servicios h1, #combo_servicios2 h1 {font-size: 1.5em !important; }
+	#combo_servicios h4, #combo_servicios2 h4 {font-size: 0.8em !important;}
+	#combo_servicios .row {padding-top: 1.6em; }
+	#combo_servicios h2 {font-size: 2.8em; }
+	#combo_servicios h3 {font-size: 0.7em !important; margin:0.2em 0 1em 0;}
+	#combo_servicios2 h3 {font-size: 0.7em !important; margin:0.2em 0 1em 0;}
+	#combo_servicios p {display: none }
+	.btn { font-size: 14px;}
+	.swiper3 {margin:0 auto; padding: 0 auto;}
+	
+	.citas-izq { padding:1.6em; margin-bottom: 1.6em; }
+	.citas-der { padding:1.6em; margin-top: 0em !important; }
+	.citas-izq h3, .citas-der h3 { font-size: 1.1em !important; }
+	.citas-izq p, .citas-der p { font-size: 1em !important; }
+
+	.tips-actividades { padding:1.1em !important; }
+	.tips-actividades h3 { font-size: 1.2em !important; }
+	.tips-actividades i { font-size: 2em !important; }
+
+	.preguntas-frecuentes a { font-size: 1.1em !important; line-height: 1.4em !important; }
+
+	.social { padding-bottom: 0.5em !important;}
+	.epigrafes-blanco, .epigrafes-negro {font-size: 0.70em;top: 87% !important;}
+
+	#resumen-botones .btn {font-size: 0.5em !important; }
+
+	#libros h2 {font-size: 1.35em !important; }
+	#libros h3 {font-size: 1.2em !important; }
+	#libros p {font-size: 0.75em !important; }
+
+
+}
